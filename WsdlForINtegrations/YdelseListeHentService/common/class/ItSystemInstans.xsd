@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         <xs:annotation>
+               <xs:documentation>  
+        En 
+        ItSystemInstans
+         er et fysisk installeret it-system (
+        ItSystem
+        ) registeret i Administrationsmodulet på et af Serviceplatformens it-miljøer.  
+      </xs:documentation>
+            </xs:annotation>
+         <xs:include schemaLocation="../types/UUIDType.xsd"/>
+         <xs:include schemaLocation="../types/Tekst100Type.xsd"/>
+         <xs:element name="ItSystemInstansIdentifikation" type="kombit2022int:UUIDType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Unik identifikation af en it-systeminstans i Fælleskommunalt Administrationsmodul.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="ItSystemInstansTitel" type="kombit2022int:Tekst100Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Navn på it-system-instansen, som Leverandøren har registreret den i Fælleskommunalt Administrationssystem.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="ItSystemInstansAlternativIdentifikation"
+               type="kombit2022int:Tekst100Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Situationsbestemt alternativt identifikator for IT-Systeminstansen  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="ItSystemInstansAlternativTitel" type="kombit2022int:Tekst100Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Situationsbestemt alternativt navn for IT-Systeminstansen  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+      </xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+            
+            <xs:simpleType name="ForudBagudType">
+               <xs:annotation>
+                  <xs:documentation>  Enumeration med værdierne Forud, BagudBenyttes til at angive om en beregning/udbetaling er Forud eller Bagud  
+      </xs:documentation>
+               </xs:annotation>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="Forud"/>
+                  <xs:enumeration value="Bagud"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:schema>

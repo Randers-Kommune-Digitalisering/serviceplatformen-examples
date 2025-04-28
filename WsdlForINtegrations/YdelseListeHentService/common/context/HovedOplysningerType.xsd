@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+	  <xs:include schemaLocation="TransaktionsId.xsd"/>
+	  <xs:include schemaLocation="TransaktionsTid.xsd"/>
+	
+	  <xs:complexType name="HovedOplysningerType">
+		    <xs:sequence>
+			      <xs:element ref="kontekst:TransaktionsId"/>
+			      <xs:element ref="kontekst:TransaktionsTid"/>
+			      <xs:element ref="kontekst:OnBehalfOfUser" minOccurs="0"/>
+			      <xs:element ref="kontekst:CallersServiceCallIdentifier" minOccurs="0"/>
+			      <xs:element ref="kontekst:AccountingInfo" minOccurs="0"/>
+			      <xs:element ref="kontekst:AuthorityContext" minOccurs="0">
+				        <xs:annotation>
+					          <xs:documentation>Et tekstfelt der angiver myndighedens CVR nummer.
+Denne er en streng men er begrænset til at følge et mønster med 8 tegn bestående af tal.</xs:documentation>
+				        </xs:annotation>
+			      </xs:element>
+			      <xs:element ref="kontekst:Rute" minOccurs="0">
+			         <xs:annotation>
+			            <xs:documentation>Struktur der definerer ruten, når routing bruges i integrationen. 
+			    Udfyldelse af rutefelter specificeres i hver integration.</xs:documentation>
+			         </xs:annotation>
+			      </xs:element>
+			      <xs:element ref="kontekst:Processing" minOccurs="0" maxOccurs="unbounded"/>
+		    </xs:sequence>
+	  </xs:complexType>
+	  <xs:element name="Processing" type="kontekst:ProcessingType">
+		    <xs:annotation>
+			      <xs:documentation>Mulighed for at passere yderligere kontekstuelle variable, f.eks. instrukser til teststubbe.</xs:documentation>
+		    </xs:annotation>
+	  </xs:element>
+	  <xs:complexType name="ProcessingType">
+		    <xs:sequence>
+			      <xs:any namespace="##any" processContents="skip"/>
+		    </xs:sequence>
+	  </xs:complexType>
+	  <xs:element name="OnBehalfOfUser" type="kontekst:OnBehalfOfUserType">
+		    <xs:annotation>
+			      <xs:documentation>Identifikation af en bruger i det kaldende system</xs:documentation>
+		    </xs:annotation>
+	  </xs:element>
+	  <xs:simpleType name="OnBehalfOfUserType">
+		    <xs:restriction base="xs:string">
+			      <xs:maxLength value="255"/>
+		    </xs:restriction>
+	  </xs:simpleType>
+	  <xs:element name="CallersServiceCallIdentifier"
+               type="kontekst:CallersServiceCallIdentifierType">
+		    <xs:annotation>
+			      <xs:documentation>En identifikation af servicekaldet, indsat af kalder.</xs:documentation>
+		    </xs:annotation>
+	  </xs:element>
+	  <xs:simpleType name="CallersServiceCallIdentifierType">
+		    <xs:restriction base="xs:string">
+			      <xs:maxLength value="255"/>
+		    </xs:restriction>
+	  </xs:simpleType>
+	  <xs:element name="AccountingInfo" type="kontekst:AccountingInfoType">
+		    <xs:annotation>
+			      <xs:documentation>En besked fra kalderen til brug for opgørelser af servicekaldet.</xs:documentation>
+		    </xs:annotation>
+	  </xs:element>
+	  <xs:simpleType name="AccountingInfoType">
+		    <xs:restriction base="xs:string">
+			      <xs:maxLength value="255"/>
+		    </xs:restriction>
+	  </xs:simpleType>
+	  <xs:element name="AuthorityContext" type="kontekst:AuthorityContextType">
+		    <xs:annotation>
+			      <xs:documentation>Et tekstfelt der angiver myndighedens CVR nummer.
+Denne er en streng men er begrænset til at følge et mønster med 8 tegn bestående af tal.
+</xs:documentation>
+		    </xs:annotation>
+	  </xs:element>
+	  <xs:complexType name="AuthorityContextType">
+		    <xs:all>
+			      <xs:element name="MunicipalityCVR" type="kontekst:CVRNumber" minOccurs="1" maxOccurs="1"/>
+		    </xs:all>
+	  </xs:complexType>
+	  <xs:element name="Rute" type="kontekst:RuteType">
+		    <xs:annotation>
+			      <xs:documentation>Struktur der definerer routing, når routing bruges i integrationen. 
+Udfyldelse af routing-felter specificeres i hver integration.</xs:documentation>
+		    </xs:annotation>
+	  </xs:element>
+	  <xs:complexType name="RuteType">
+		    <xs:all>
+			      <xs:element name="AfsenderOrganisation" type="kontekst:CVRNumber" minOccurs="1"
+                     maxOccurs="1">
+			         <xs:annotation>
+			            <xs:documentation>Identificerer kaldende organisation.</xs:documentation>
+			         </xs:annotation>
+			      </xs:element>
+			      <xs:element name="AfsenderItSystemInstans" type="kontekst:ItSystemInstansType">
+			         <xs:annotation>
+			            <xs:documentation>En UUID der identificerer kaldende it-systeminstans, indsat af kalder. UUID refererer til it-systeminstans fra KOMBIT Organisation støttesystem.</xs:documentation>
+			         </xs:annotation>
+			      </xs:element>
+			      <xs:element name="ModtagerOrganisation" type="kontekst:CVRNumber" minOccurs="1"
+                     maxOccurs="1">
+			         <xs:annotation>
+			            <xs:documentation>Identificerer modtagende organisation.</xs:documentation>
+			         </xs:annotation>
+			      </xs:element>			
+         <xs:element name="ModtagerItSystemInstans" type="kontekst:ItSystemInstansType"
+                     minOccurs="0">
+			         <xs:annotation>
+			            <xs:documentation>En UUID der identificerer kaldte it-systeminstans, indsat af kalder. UUID refererer til it-systeminstans fra KOMBIT Organisation støttesystem.</xs:documentation>
+			         </xs:annotation>
+			      </xs:element>
+		    </xs:all>
+	  </xs:complexType>
+	  <xs:simpleType name="ItSystemInstansType">
+          <xs:annotation>
+            <xs:documentation>  
+        &lt;
+        xs:pattern
+         value
+        ="
+        [a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}
+        "/&gt;
+          
+	    </xs:documentation>
+          </xs:annotation>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}"/>
+          </xs:restriction>
+	  </xs:simpleType>
+	  <xs:simpleType name="CVRNumber">
+		    <xs:restriction base="xs:string">
+			      <xs:pattern value="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"/>
+		    </xs:restriction>
+	  </xs:simpleType>
+</xs:schema>

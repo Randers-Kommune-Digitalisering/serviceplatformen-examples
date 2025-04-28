@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         
+         
+         <xs:annotation>
+            <xs:documentation>  Input til søgning af Effektueringer for en borgerVed søgning på partkan der enten søges på ØkonomiskEffektuering hvor den angivne part er OekominskEffektueringModtager, eller ØkonomiskEffektuering hvor den angivne part er Primær part på den relaterede Sag. Dette angives i PartRolle. Hvis PartRolle er tom, søges efter parter i begge roller.   
+      </xs:documentation>
+            <xs:documentation>r4697</xs:documentation>
+         </xs:annotation>
+         <xs:import namespace="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+              schemaLocation="../context/KontekstType.xsd"/>
+			  
+			      
+         <xs:include schemaLocation="../class/Part.xsd"/>
+         <xs:include schemaLocation="../class/Bevilling.xsd"/>
+         <xs:include schemaLocation="../class/BevilgetYdelse.xsd"/>
+         <xs:include schemaLocation="../operational/PartRolle.xsd"/>
+         
+         <xs:include schemaLocation="../operational/MedtagBevilling.xsd"/>
+         
+         <xs:include schemaLocation="../operational/FjernUndtagetVisningForBorger.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringDispositionsDatoFra.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringDispositionsDatoTil.xsd"/>
+         
+         <xs:include schemaLocation="../class/Virksomhed.xsd"/>
+         <xs:include schemaLocation="../operational/KLEDataAfgr.xsd"/>
+         
+         <xs:include schemaLocation="../operational/SystemDataAfgr.xsd"/>
+         
+         <xs:include schemaLocation="../operational/ResultatAntalMaks.xsd"/>
+         
+         <xs:include schemaLocation="../operational/ResultatStart.xsd"/>
+         
+         <xs:include schemaLocation="../operational/EffektueringSorteringElement.xsd"/>
+         
+         <xs:include schemaLocation="../operational/SorteringRetning.xsd"/>
+         
+         <xs:element name="EffektueringHent_I">
+            <xs:complexType>
+               <xs:complexContent>
+                  <xs:extension base="kombit2022int:EffektueringHent_IType">
+                     <xs:attribute name="revision">
+                        <xs:simpleType>
+                           <xs:restriction base="xs:string">
+                              <xs:pattern value="r4697"/>
+                           </xs:restriction>
+                        </xs:simpleType>
+                     </xs:attribute>
+                  </xs:extension>
+               </xs:complexContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:complexType name="EffektueringHent_IType">
+            <xs:sequence>
+               <xs:element ref="kontekst:HovedOplysninger"/>
+               
+                  
+                     <xs:element name="Kriterie">
+                        <xs:complexType>
+                           <xs:choice>
+                              <xs:sequence>
+                                 <xs:element ref="kombit2022int:PartCPRNummer"/>
+                              </xs:sequence>
+                              <xs:sequence>
+                                 <xs:element ref="kombit2022int:PartCVRNummer"/>
+                              </xs:sequence>
+                              <xs:sequence>
+                                 <xs:element ref="kombit2022int:PartPNummer"/>
+                              </xs:sequence>
+                              <xs:sequence>
+                                 <xs:element ref="kombit2022int:PartURN"/>
+                              </xs:sequence>
+                              <xs:sequence>
+                                 <xs:element name="BevilgetYdelseKriterie">
+                                    <xs:complexType>
+                                       <xs:sequence>
+                                          <xs:element ref="kombit2022int:BevillingUUID"/>
+                                          <xs:element ref="kombit2022int:BevilgetYdelseID"/>
+                                       </xs:sequence>
+                                    </xs:complexType>
+                                 </xs:element>
+                              </xs:sequence>
+                           </xs:choice>
+                        </xs:complexType>
+                     </xs:element>
+                     
+                        <xs:element ref="kombit2022int:PartRolle" minOccurs="0"/>
+                     
+                     
+                        <xs:element ref="kombit2022int:MedtagBevilling" minOccurs="0"/>
+                     
+                     
+                        <xs:element ref="kombit2022int:FjernUndtagetVisningForBorger" minOccurs="0"/>
+                     
+                     
+                        <xs:element ref="kombit2022int:OekonomiskEffektueringDispositionsDatoFra" minOccurs="0"/>
+                     
+                     
+                        <xs:element ref="kombit2022int:OekonomiskEffektueringDispositionsDatoTil" minOccurs="0"/>
+                     
+                     <xs:element name="RettighedListe">
+                        <xs:complexType>
+                           <xs:sequence>
+                              <xs:element name="BevillingDataAfgrGruppe" minOccurs="1" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                    <xs:sequence>
+                                       
+                                          <xs:element name="MyndighedDataAfgrListe" minOccurs="0">
+                                             <xs:complexType>
+                                                <xs:sequence>
+                                                   <xs:element ref="kombit2022int:VirksomhedCVRNummer" minOccurs="1" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                             </xs:complexType>
+                                          </xs:element>
+                                       
+                                       
+                                          <xs:element name="BevillingAfgrListe" minOccurs="0">
+                                             <xs:complexType>
+                                                <xs:sequence>
+                                                   <xs:element name="BevillingDataAfgr" minOccurs="1" maxOccurs="unbounded">
+                                                      <xs:complexType>
+                                                         <xs:sequence>
+                                                            
+                                                               <xs:element ref="kombit2022int:BevillingFoelsomhed" minOccurs="0"/>
+                                                            
+                                                            
+                                                               <xs:element ref="kombit2022int:KLEDataAfgr" minOccurs="0"/>
+                                                            
+                                                            
+                                                               <xs:element ref="kombit2022int:SystemDataAfgr" minOccurs="0"/>
+                                                            
+                                                         </xs:sequence>
+                                                      </xs:complexType>
+                                                   </xs:element>
+                                                </xs:sequence>
+                                             </xs:complexType>
+                                          </xs:element>
+                                       
+                                    </xs:sequence>
+                                 </xs:complexType>
+                              </xs:element>
+                           </xs:sequence>
+                        </xs:complexType>
+                     </xs:element>
+                     
+                        <xs:element name="ResultatFilter" minOccurs="0">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element ref="kombit2022int:ResultatAntalMaks"/>
+                                 
+                                    <xs:element ref="kombit2022int:ResultatStart" minOccurs="0"/>
+                                 
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     
+                     
+                        <xs:element name="EffektueringSortering" minOccurs="0">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element ref="kombit2022int:EffektueringSorteringElement"/>
+                                 
+                                    <xs:element ref="kombit2022int:SorteringRetning" minOccurs="0"/>
+                                 
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     
+                  
+               
+            </xs:sequence>
+         </xs:complexType>
+      </xs:schema>

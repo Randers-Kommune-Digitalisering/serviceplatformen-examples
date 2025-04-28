@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+            
+            <xs:simpleType name="PNummerType">
+               <xs:annotation>
+                  <xs:documentation>  Únik identifikation af en Virksomhed. CVRNumber-datatypen anvendes i hovedoplysninger og andre steder hvor CVRNummer udveksles som tekst. Udveksles CVRNummer som et 8-cifret tal anvendes datatypen CVRNummer.  
+      </xs:documentation>
+               </xs:annotation>
+               <xs:restriction base="xs:string">
+                  <xs:pattern value="[0-9]{10}"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:schema>

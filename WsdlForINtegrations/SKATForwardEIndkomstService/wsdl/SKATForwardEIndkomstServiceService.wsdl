@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <wsdl:definitions xmlns:kombit2017="http://www.kombit.dk/2017/01/01/"
+                        xmlns:amsns="http://rep.oio.dk/ams.dk/xml/schemas/2005/09/01/"
+                        xmlns:besked="urn:oio:besked:kuvert:1.0"
+                        xmlns:gulws="urn:oio:skat:gul:ws:1.0.0"
+                        xmlns:fase2="http://rep.oio.dk/skat.dk/eindkomst/"
+                        xmlns:nks="http://rep.oio.dk/oes.dk/nemkonto/xml/schemas/2006/05/01/"
+                        xmlns:dkal="urn:oio:dkal:1.0.0"
+                        xmlns:rumeta="http://service.bm.dk/RequestUserMetadata/2015/01/21/"
+                        xmlns:udkspns="https://service.minpensionssag.dk/"
+                        xmlns:sp="urn:oio:kmd:social:2.0.0"
+                        xmlns:ursns="http://service.bm.dk/pjaktass/4/UnemploymentRegistrationService"
+                        xmlns:oirns="urn:kombit:oir:1.0"
+                        xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                        targetNamespace="http://www.kombit.dk/2017/01/01/"
+                        name="SKATForwardEIndkomstServiceService_4">
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <xs:annotation xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:documentation>  Synkron webservice, der giver mulighed for at hente indkomstoplysninger for en eller flere personer.   
+      </xs:documentation>
+            <xs:documentation>Business service revision: 4.0</xs:documentation>
+            <xs:documentation>Valid from: --T::.00Z</xs:documentation>
+            <xs:documentation>r5123</xs:documentation>
+         </xs:annotation>
+         <wsdl:import namespace="http://www.kombit.dk/2017/01/01/"
+                      location="../common/wsdl/SKATForwardEIndkomstService.wsdl"/>
+         
+         <wsdl:binding name="SKATForwardEIndkomstServiceServiceBinding"
+                       type="kombit2017:SKATForwardEIndkomstServiceServicePortType">
+            <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document"
+                          transport="http://schemas.xmlsoap.org/soap/http"/>
+            <wsp:PolicyReference xmlns:wsp="http://www.w3.org/ns/ws-policy" URI="#ServiceplatformBindingPolicy"/>
+            <wsdl:operation name="SF0770_A_IndkomstoplysningerLaes_IndkomstoplysningerLaes">
+               <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                               soapAction="http://www.kombit.dk/2017/01/01/SKATForwardEIndkomstServiceService_4#SF0770_A_IndkomstoplysningerLaes_IndkomstoplysningerLaes"/>
+               <wsdl:input name="IndkomstOplysningPersonHent">
+                  <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                             parts="IndkomstOplysningPersonHent_I"
+                             use="literal"/>
+               </wsdl:input>
+               <wsdl:output name="IndkomstOplysningPersonHent">
+                  <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                             parts="IndkomstOplysningPersonHent_O"
+                             use="literal"/>
+               </wsdl:output>
+            </wsdl:operation>
+         </wsdl:binding>
+         <wsdl:service name="SKATForwardEIndkomstServiceService">
+            <wsdl:port name="SKATForwardEIndkomstServiceServicePortType"
+                       binding="kombit2017:SKATForwardEIndkomstServiceServiceBinding">
+               <soap:address xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                             location="http://{$service.location}/service/SKATForwardEIndkomstServiceService_4"/>
+            </wsdl:port>
+         </wsdl:service>
+      </wsdl:definitions>

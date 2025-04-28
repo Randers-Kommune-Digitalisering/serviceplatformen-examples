@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+                  name="YdelseListeHentService">
+         <xs:annotation xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:documentation>  Servicen giver mulighed for at fremsøge oplysninger om bevilgede ydelser og effektueringer for en bevillingsmodtager (primær part på sagen) og/eller effektueringsmodtager. Søgningen kan kun ske inden for egen sektor, dvs. det kan være UDK, der søger ydelser inden for egen myndighed, eller en kommune, der søger ydelser inden for én eller flere kommuner.  
+      </xs:documentation>
+            <xs:documentation>r4697</xs:documentation>
+         </xs:annotation>
+         <wsdl:import namespace="http://www.kombit.dk/int/2022/01/01/"
+                location="../common/wsdl/YdelseListeHent.wsdl"/>
+         
+         <wsdl:binding name="YdelseListeHentServiceBinding"
+                 type="kombit2022int:YdelseListeHentServicePortType">
+            <soap12:binding xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" style="document"
+                      transport="http://schemas.xmlsoap.org/soap/http"/>
+            <wsp:PolicyReference xmlns:wsp="http://www.w3.org/ns/ws-policy" URI="#ServiceplatformBindingPolicy"/>
+            <wsdl:operation name="BevillingHent">
+               <soap12:operation xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                           soapAction="http://www.kombit.dk/int/2022/01/01/YdelseListeHentService#BevillingHent"/>
+               <wsdl:input name="BevillingHentRequest">
+                  <soap12:body xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                         parts="BevillingHentRequest"
+                         use="literal"/>
+               </wsdl:input>
+               <wsdl:output name="BevillingHentRequest">
+                  <soap12:body xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                         parts="BevillingHentResponse"
+                         use="literal"/>
+               </wsdl:output>
+            </wsdl:operation>
+            <wsdl:operation name="EffektueringHent">
+               <soap12:operation xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                           soapAction="http://www.kombit.dk/int/2022/01/01/YdelseListeHentService#EffektueringHent"/>
+               <wsdl:input name="EffektueringHentRequest">
+                  <soap12:body xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                         parts="EffektueringHentRequest"
+                         use="literal"/>
+               </wsdl:input>
+               <wsdl:output name="EffektueringHentRequest">
+                  <soap12:body xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                         parts="EffektueringHentResponse"
+                         use="literal"/>
+               </wsdl:output>
+            </wsdl:operation>
+         </wsdl:binding>
+         <wsdl:service name="YdelseListeHentService">
+            <wsdl:port name="YdelseListeHentServicePortType"
+                 binding="kombit2022int:YdelseListeHentServiceBinding">
+               <soap12:address xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                         location="http://{$service.location}/service/YdelseListeHentService"/>
+            </wsdl:port>
+         </wsdl:service>
+      </wsdl:definitions>

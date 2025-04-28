@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+            
+            <xs:simpleType name="KLEDataAfgrType">
+               <xs:annotation>
+                  <xs:documentation>  
+        Dataafgrænsning til objektets KLE emne. Tilladte værdier: 99.*, 99.99.*, 99.99.99
+        Der kan angives flere værdier adskilt med komma eller i intervaller adskilt med bindestreg.For eksempel: 27.*, 32.*-34.*
+        Hvilket betyder alle objekter med KLE nummer 27.00.00 til 27.99.99 og 32.00.00 - 34.99.99
+          
+      </xs:documentation>
+               </xs:annotation>
+               <xs:restriction base="xs:string">
+                  <xs:pattern value="((\*|([\d]{2}\.\*)|([\d]{2}\.[\d]{2}\.\*)|([\d]{2}(\.[\d]{2}){2}))(\s*-\s*(\*|([\d]{2}\.\*)|([\d]{2}\.[\d]{2}\.\*)|([\d]{2}(\.[\d]{2}){2})))?)(,\s*((\*|([\d]{2}\.\*)|([\d]{2}\.[\d]{2}\.\*)|([\d]{2}(\.[\d]{2}){2}))(\s*-\s*(\*|([\d]{2}\.\*)|([\d]{2}\.[\d]{2}\.\*)|([\d]{2}(\.[\d]{2}){2})))?))*"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:schema>

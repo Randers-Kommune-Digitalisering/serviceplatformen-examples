@@ -1,0 +1,18 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "8.0.0-preview1.24619.5",
+  "options": {
+    "inputs": [
+      "../../../WsdlForINtegrations/PersonBaseDataExtendedService/wsdl/token/PersonBaseDataExtendedService.wsdl"
+    ],
+    "namespaceMappings": [
+      "*, ConnectedServices_PersonBaseDataExtendedService"
+    ],
+    "outputFile": "PersonBaseDataExtendedService.cs",
+    "references": [
+      "C:\\Users\\DQB1334\\repos\\serviceplatformen-examples\\ServiceplatformenExamples\\ServiceplatformenExamples.csproj"
+    ],
+    "targetFramework": "net9.0",
+    "typeReuseMode": "Specified"
+  }
+}

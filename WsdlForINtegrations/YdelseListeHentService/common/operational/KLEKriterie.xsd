@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+         <xs:include schemaLocation="../types/KLEDataAfgrType.xsd"/>
+         
+         <xs:element name="KLEKriterie" type="kombit2022int:KLEDataAfgrType">
+            <xs:annotation>
+               <xs:documentation>  Søgekriterie på KLEEmne. Angives i formen nn.* eller nn.nn.* eller nn.nn.nn. F.eks. 32.*.* Der søges på KLE-emnets brugervendte nøgle i Fælleskommunalt Klassifikationssystem Søgekriteriet afgrænser på KLE-emnet relateret til den Bevilgede Ydelse.  
+      </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:schema>

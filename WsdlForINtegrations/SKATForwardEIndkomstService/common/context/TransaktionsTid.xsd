@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://kombit.dk/xml/schemas/kontekst/2017/01/01/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xs:element name="TransaktionsTid" type="kontekst:TransaktionsTidType">
+		<xs:annotation>
+			<xs:documentation>Tidsstempel der påsættes af oprindelig kalder, som indikering af kaldstidspunktet som det opfattes af kalder. Når et kald passeres videre til eller fra et undersystem, passeres TransaktionsTid også videre uændret.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:simpleType name="TransaktionsTidType">
+		<xs:restriction base="xs:dateTime"/>
+	</xs:simpleType>
+</xs:schema>

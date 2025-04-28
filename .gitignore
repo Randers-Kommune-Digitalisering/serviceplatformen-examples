@@ -52,3 +52,11 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+.vs/
+
+# Client certificates
+ServiceplatformenExamples/Certificates/Client/*
+
+# Client certificates - keep the directory
+!ServiceplatformenExamples/Certificates/Client/.gitkeep 

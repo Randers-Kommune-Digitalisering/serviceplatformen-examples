@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+         <xs:include schemaLocation="../types/DecimalTal15_2Type.xsd"/>
+         
+         <xs:element name="OekonomiskEffektueringsplanYdelsesbeloeb"
+               type="kombit2022int:DecimalTal15_2Type">
+            <xs:annotation>
+               <xs:documentation>  Angivelse af hvor meget (bruttobeløb) der skal udbetales til ydelsesmodtageren ved hver enkelt effektuering. Det præcise beløb der udbetales ved en specifik effektuering, genberegnes ofte på effektueringstidspunktet og kan dermed afvige fra beløbet i denne attribut, hvis bevillingsmodtagerens situation har ændret sig.  
+      </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:schema>

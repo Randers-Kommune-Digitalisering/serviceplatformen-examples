@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+            
+            <xs:simpleType name="KLEEmneType">
+               <xs:annotation>
+                  <xs:documentation>  Emneangivelse i KLs Emnesystematik (KLE)Angives i tre niveauer med 2 cifre i hver: F.eks  "27.35.28" Hvor niveau 1 er 27:Social serviceniveau 2: 27.35: Almene tilbudniveau 3: 27.35.28 Socialt frikort  
+      </xs:documentation>
+               </xs:annotation>
+               <xs:restriction base="xs:string">
+                  <xs:pattern value="(([\d]{1}\*)|([\d]{2}\.\*)|([\d]{2}\.[\d]{1}\*)|([\d]{2}\.[\d]{2}\.\*)|([\d]{2}\.[\d]{2}\.[\d]{1}\*)|([\d]{2}(\.[\d]{2}){2}))"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:schema>

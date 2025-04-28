@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:kombit2017="http://www.kombit.dk/2017/01/01/" xmlns:fase2="http://rep.oio.dk/skat.dk/eindkomst/" xmlns:kontekst="http://rep.oio.dk/skat.dk/basis/kontekst/xml/schemas/2006/09/01/" xmlns:bestillingid="http://rep.oio.dk/skat.dk/eindkomst/class/abonnentbestillingidentifikator/xml/schemas/20071202/" targetNamespace="http://www.kombit.dk/2017/01/01/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0" xml:lang="DA">
+	<xs:annotation>
+		<xs:documentation/>
+	</xs:annotation>
+	<xs:import namespace="http://rep.oio.dk/skat.dk/eindkomst/" schemaLocation="KOMBITServiceTypes.xsd"/>
+	<xs:element name="IndkomstOplysningPersonInddata" type="fase2:IndkomstOplysningPersonInddataType"/>
+	<xs:element name="IndkomstPersonUddata" type="fase2:IndkomstPersonUddataType"/>
+</xs:schema>

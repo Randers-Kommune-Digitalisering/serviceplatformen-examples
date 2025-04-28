@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://kombit.dk/xml/schemas/kontekst/2017/01/01/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xs:element name="KildeId" type="kontekst:KildeIdType">
+		<xs:annotation>
+			<xs:documentation>Kontekst for fejlen eller advisen. Unik identifikation af udstederen. Indsættes af fejl- eller advisudsteder selv. Ved viderepassage af en fejl eller advis, passeres KildeId også videre uændret.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:simpleType name="KildeIdType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         <xs:annotation>
+               <xs:documentation>  En bevilling er et udtryk for en aftale mellem en person/virksomhed og kommunen/staten. En bevilling omfatter en række bevilgede ydelser, som kan være af forskellig art:- Økonomiske ydelser (penge)- Ressourceydelser (tid)- Fysiske ydelser (ting) Alle bevilgede ydelser, hørende til samme bevilling, skal tidsmæssigt ligge inden for rammen af bevillingen. Et positivt tilsagn fra myndigheden (her kommunen) om at borgeren/virksomheden har fået bevilget en eller flere ydelser. Bevillingen er en tilkendegivelse af "retten til at få" og betragtes som en kontrakt mellem borgeren og myndigheden. Bevillingen består af en række bevilgede ydelser  
+      </xs:documentation>
+            </xs:annotation>
+         <xs:include schemaLocation="../types/UUIDType.xsd"/>
+         <xs:include schemaLocation="../types/DatoType.xsd"/>
+         <xs:include schemaLocation="../types/Tekst500Type.xsd"/>
+         <xs:include schemaLocation="../types/FoelsomhedType.xsd"/>
+         <xs:element name="BevillingUUID" type="kombit2022int:UUIDType">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Defintion:
+        Forretningsobjektets universelt unikke, persistente identifikator.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevillingStartDato" type="kombit2022int:DatoType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Datoen for bevillingens start.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevillingSlutDato" type="kombit2022int:DatoType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Datoen for bevillingens slut.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevillingBegrundelse" type="kombit2022int:Tekst500Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Bevillingens begrundelse Bemærkning:Hver bevilling en person eller virksomhed får, gives af en eller anden grund. Denne begrundelse kan noteres her. Bemærk at der er særskilte begrundelser på de bevilgede ydelser, så på dette niveau, er der tale om den samlede, fælles begrundelse.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevillingFoelsomhed" type="kombit2022int:FoelsomhedType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Bevillingends følsomshedsniveau. Det angives her, om der er tale om følsomme data eller ej efter en fast 4-trinsskala.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+      </xs:schema>

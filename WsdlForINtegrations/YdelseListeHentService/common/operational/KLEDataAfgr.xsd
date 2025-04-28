@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+         <xs:include schemaLocation="../types/KLEDataAfgrType.xsd"/>
+         
+         <xs:element name="KLEDataAfgr" type="kombit2022int:KLEDataAfgrType">
+            <xs:annotation>
+               <xs:documentation>  
+        Dataafgrænsning af sagens primærklasse. Tilladte værdier:99.*, 99.99.*, 99.99.99 Der kan angives flere værdier adskilt med komma eller i intervaller adskilt med bindestreg. For eksempel: 27.*, 32.*-34.*Hvilket betyder alle sager med KLE
+        -
+        nummer 27.00.00 til 27.99.99 og 32.00.00 - 34.99.99  
+      </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:schema>

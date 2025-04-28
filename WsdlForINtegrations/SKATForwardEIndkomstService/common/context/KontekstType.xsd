@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:kombit2017="http://www.kombit.dk/2017/01/01/" xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://kombit.dk/xml/schemas/kontekst/2017/01/01/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xs:include schemaLocation="HovedOplysningerType.xsd"/>
+	<xs:include schemaLocation="HovedOplysningerSvarType.xsd"/>
+	<xs:element name="HovedOplysninger" type="kontekst:HovedOplysningerType"/>
+	<xs:element name="HovedOplysningerSvar" type="kontekst:HovedOplysningerSvarType"/>
+</xs:schema>

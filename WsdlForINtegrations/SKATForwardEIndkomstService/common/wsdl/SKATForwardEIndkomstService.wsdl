@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <wsdl:definitions xmlns:kombit2017="http://www.kombit.dk/2017/01/01/"
+                        xmlns:amsns="http://rep.oio.dk/ams.dk/xml/schemas/2005/09/01/"
+                        xmlns:besked="urn:oio:besked:kuvert:1.0"
+                        xmlns:gulws="urn:oio:skat:gul:ws:1.0.0"
+                        xmlns:fase2="http://rep.oio.dk/skat.dk/eindkomst/"
+                        xmlns:nks="http://rep.oio.dk/oes.dk/nemkonto/xml/schemas/2006/05/01/"
+                        xmlns:dkal="urn:oio:dkal:1.0.0"
+                        xmlns:rumeta="http://service.bm.dk/RequestUserMetadata/2015/01/21/"
+                        xmlns:udkspns="https://service.minpensionssag.dk/"
+                        xmlns:sp="urn:oio:kmd:social:2.0.0"
+                        xmlns:ursns="http://service.bm.dk/pjaktass/4/UnemploymentRegistrationService"
+                        xmlns:oirns="urn:kombit:oir:1.0"
+                        xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                        targetNamespace="http://www.kombit.dk/2017/01/01/"
+                        name="SKATForwardEIndkomstServiceService_4">
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <xs:annotation xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:documentation>  Synkron webservice, der giver mulighed for at hente indkomstoplysninger for en eller flere personer.   
+      </xs:documentation>
+            <xs:documentation>Business service revision: 4.0</xs:documentation>
+            <xs:documentation>Valid from: --T::.00Z</xs:documentation>
+            <xs:documentation>r5123</xs:documentation>
+         </xs:annotation>
+         
+         <wsdl:types>
+            <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        targetNamespace="http://www.kombit.dk/2017/01/01/">
+               <xsd:include schemaLocation="../service/SKATForwardEIndkomstServiceInterface.xsd"/>
+               
+            </xsd:schema>
+         </wsdl:types>
+         <wsdl:message name="m_IndkomstOplysningPersonHent_O">
+            <wsdl:part name="IndkomstOplysningPersonHent_O"
+                       element="kombit2017:IndkomstOplysningPersonHent_O"/>
+         </wsdl:message>
+         <wsdl:message name="m_IndkomstOplysningPersonHent_I">
+            <wsdl:part name="IndkomstOplysningPersonHent_I"
+                       element="kombit2017:IndkomstOplysningPersonHent_I"/>
+         </wsdl:message>
+         <wsdl:portType name="SKATForwardEIndkomstServiceServicePortType">
+            <wsdl:operation name="SF0770_A_IndkomstoplysningerLaes_IndkomstoplysningerLaes">
+               <wsdl:input name="IndkomstOplysningPersonHent"
+                           message="kombit2017:m_IndkomstOplysningPersonHent_I"/>
+               <wsdl:output name="IndkomstOplysningPersonHent"
+                            message="kombit2017:m_IndkomstOplysningPersonHent_O"/>
+            </wsdl:operation>
+         </wsdl:portType>
+      </wsdl:definitions>

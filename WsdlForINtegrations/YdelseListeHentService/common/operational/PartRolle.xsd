@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+         <xs:include schemaLocation="../types/PartRolleTypeType.xsd"/>
+         
+         <xs:element name="PartRolle" type="kombit2022int:PartRolleTypeType">
+            <xs:annotation>
+               <xs:documentation>  Angiver partens rolle i forhold til den bevilgede ydelse. Parten kan være "Bevillingsmodtager" eller "Effektueringsmodtager". Bevillingsmodtager er den part, dvs. person eller virksomhed, der har fået bevilget ydelsen, mens Effektueringsmodtager er den part der har fået ydelsen udbetalt. F.eks. vil en forælder der få udbetalt refusion for tabt arbejdsfortjeneste for at kunne passe et sygt barn, være effektueringsmodtager mens barnet vil være bevillingsmodtager. Bevillingsmodtager vil altid være registreret som "primær part" på en sag. Effektueringsmodtageren er modtageren af den økonomiske effektuering,   
+      </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:schema>

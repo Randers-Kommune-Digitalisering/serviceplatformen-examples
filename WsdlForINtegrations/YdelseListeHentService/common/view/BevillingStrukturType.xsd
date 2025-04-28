@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         
+         
+         <xs:annotation>
+            <xs:documentation>  Bevilling inklusive den tilhørende sag.SagUUID og primær part er altid udfyldt.Øvrige oplysninger om Bevillingssag udfyldes kun hvis data tilgås med en dataafgrænsning der tillader adgang til sagens KLEEmne.  
+      </xs:documentation>
+            <xs:documentation>r4697</xs:documentation>
+         </xs:annotation>
+         <xs:include schemaLocation="../class/Bevilling.xsd"/>
+         <xs:include schemaLocation="../class/Virksomhed.xsd"/>
+         <xs:include schemaLocation="../class/ItSystemInstans.xsd"/>
+         <xs:include schemaLocation="../class/Organisationsenhed.xsd"/>
+         <xs:include schemaLocation="../operational/AnsvarligAfdelingURN.xsd"/>
+         
+         <xs:include schemaLocation="../operational/AnsvarligAfdelingBrugervendtNoegle.xsd"/>
+         
+         <xs:include schemaLocation="../operational/AnsvarligAfdelingFuldtNavn.xsd"/>
+         
+         <xs:include schemaLocation="../class/Part.xsd"/>
+         <xs:include schemaLocation="../class/Sag.xsd"/>
+         <xs:include schemaLocation="../operational/SagFoelsomhed.xsd"/>
+         
+         <xs:include schemaLocation="../operational/SagKLEEmne.xsd"/>
+         
+         <xs:include schemaLocation="../operational/SagKLEHandlingsfacet.xsd"/>
+         
+         <xs:include schemaLocation="../operational/SagEjerCVRNummer.xsd"/>
+         
+         <xs:include schemaLocation="../operational/SagUndtagetVisningForBorger.xsd"/>
+         
+         <xs:element name="BevillingStruktur" type="kombit2022int:BevillingStrukturType"/>
+         <xs:complexType name="BevillingStrukturType">
+            <xs:sequence>
+               <xs:element ref="kombit2022int:BevillingUUID"/>
+               <xs:element ref="kombit2022int:BevillingFoelsomhed"/>
+               <xs:element name="BevillingEjer">
+                  <xs:complexType>
+                     <xs:sequence>
+                        <xs:element ref="kombit2022int:VirksomhedCVRNummer"/>
+                     </xs:sequence>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="BevillingMasterSystemInstans">
+                  <xs:complexType>
+                     <xs:sequence>
+                        <xs:element ref="kombit2022int:ItSystemInstansIdentifikation"/>
+                        <xs:element ref="kombit2022int:ItSystemInstansTitel"/>
+                     </xs:sequence>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="BevillingAnsvarligAfdeling">
+                  <xs:complexType>
+                     <xs:sequence>
+                        
+                           <xs:element ref="kombit2022int:OrganisationsenhedUUID" minOccurs="0"/>
+                        
+                        
+                           <xs:element ref="kombit2022int:AnsvarligAfdelingURN" minOccurs="0"/>
+                        
+                        
+                           <xs:element ref="kombit2022int:AnsvarligAfdelingBrugervendtNoegle" minOccurs="0"/>
+                        
+                        
+                           <xs:element ref="kombit2022int:AnsvarligAfdelingFuldtNavn" minOccurs="0"/>
+                        
+                     </xs:sequence>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="Bevillingsmodtager">
+                  <xs:complexType>
+                     <xs:sequence>
+                        <xs:element ref="kombit2022int:PartType"/>
+                        <xs:element ref="kombit2022int:PartURN"/>
+                        
+                           <xs:element ref="kombit2022int:PartFuldtNavn" minOccurs="0"/>
+                        
+                        
+                           <xs:element ref="kombit2022int:PartCPRNummer" minOccurs="0"/>
+                        
+                        
+                           <xs:element ref="kombit2022int:PartCVRNummer" minOccurs="0"/>
+                        
+                        
+                           <xs:element ref="kombit2022int:PartPNummer" minOccurs="0"/>
+                        
+                     </xs:sequence>
+                  </xs:complexType>
+               </xs:element>
+               
+                  <xs:element name="Bevillingssag" minOccurs="0">
+                     <xs:complexType>
+                        <xs:sequence>
+                           <xs:element ref="kombit2022int:SagUUID"/>
+                           
+                              <xs:element ref="kombit2022int:SagTitel" minOccurs="0"/>
+                           
+                           
+                              <xs:element ref="kombit2022int:SagSagsnummer" minOccurs="0"/>
+                           
+                           
+                              <xs:element ref="kombit2022int:SagFoelsomhed" minOccurs="0"/>
+                           
+                           
+                              <xs:element ref="kombit2022int:SagKLEEmne" minOccurs="0"/>
+                           
+                           
+                              <xs:element ref="kombit2022int:SagKLEHandlingsfacet" minOccurs="0"/>
+                           
+                           
+                              <xs:element ref="kombit2022int:SagEjerCVRNummer" minOccurs="0"/>
+                           
+                           
+                              <xs:element name="SagMasterSystemInstans" minOccurs="0">
+                                 <xs:complexType>
+                                    <xs:sequence>
+                                       <xs:element ref="kombit2022int:ItSystemInstansIdentifikation"/>
+                                       <xs:element ref="kombit2022int:ItSystemInstansTitel"/>
+                                    </xs:sequence>
+                                 </xs:complexType>
+                              </xs:element>
+                           
+                           
+                              <xs:element ref="kombit2022int:SagUndtagetVisningForBorger" minOccurs="0"/>
+                           
+                        </xs:sequence>
+                     </xs:complexType>
+                  </xs:element>
+               
+            </xs:sequence>
+         </xs:complexType>
+      </xs:schema>

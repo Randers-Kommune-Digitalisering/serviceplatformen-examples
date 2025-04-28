@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xs:element name="LimitedXPath" type="limxpath:LimitedXPathType">
+	  <xs:annotation>
+	    <xs:documentation>LimitedXPath kan indsættes i Indentifikator-felt til at udpege XML-elementer i payload.
+Kan for eksempel anvendes til at udpege specifik lokation for fejl i kaldspayload i forbindelse med rapportering af fejl eller adviser.</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+	<xs:simpleType name="LimitedXPathType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(/((\.){1,2}|(/){0,1}(([a-zæøåA-ZÆØÅ0-9_\-]+|\*):){0,1}([a-zæøåA-ZÆØÅ0-9_\-]+)(\[(\./(/){0,1})(&#64;){0,1}(([a-zæøåA-ZÆØÅ0-9_\-]+|\*):){0,1}([a-zæøåA-ZÆØÅ0-9_\-]+)(&#33;){0,1}(=&#39;([a-zæøåA-ZÆØÅ0-9_\-]*)&#39;){0,1}\]|\[([1-9][0-9]*)\])*)(/&#64;[a-zæøåA-ZÆØÅ0-9_\-]+){0,1})+"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

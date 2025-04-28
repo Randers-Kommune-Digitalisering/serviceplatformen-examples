@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+         <xs:include schemaLocation="../types/ForudBagudType.xsd"/>
+         
+         <xs:element name="OekonomiskEffektueringsplanForudBagud"
+               type="kombit2022int:ForudBagudType">
+            <xs:annotation>
+               <xs:documentation>  Betales ydelsen forud eller bagud i forhold til den periode, hvori den er beregnet?  
+      </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:schema>

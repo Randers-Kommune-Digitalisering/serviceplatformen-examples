@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         <xs:annotation>
+               <xs:documentation>  En organisationsenhed kan være tilknyttet en organisation direkte, indirekte eller slet ikke. En sådan enhed kan være en afdeling, sektion, kontor, udvalg, klasse, hold og lignende. En organisatorisk enhed kan bruges som samlebegreb for et organisatorisk view ind på organiseringen.Kan være Stabsenhed (men det er en relation til en anden). Så typebegrebet kan i flere tilfælde erstattes af en relation.  
+      </xs:documentation>
+            </xs:annotation>
+         <xs:include schemaLocation="../types/Tekst255Type.xsd"/>
+         <xs:include schemaLocation="../types/Tekst100Type.xsd"/>
+         <xs:include schemaLocation="../types/UUIDType.xsd"/>
+         <xs:element name="OrganisationsenhedBrugervendtNoegle" type="kombit2022int:Tekst255Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Brugervendt identifikation af objektet.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="OrganisationsenhedNavn" type="kombit2022int:Tekst100Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Officielt navn på organisationsenheden. Dette er yderligere organisationsenhedens Objektnavn, jf dokument vedr. generelle egenskaber for serviceinterfaces.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="OrganisationsenhedUUID" type="kombit2022int:UUIDType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Unik identifikation af Organisationsenheden i Fælleskommunalt Organisationssystem  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+      </xs:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+         <xs:include schemaLocation="../types/Tekst50Type.xsd"/>
+         
+         <xs:element name="OekonomiskEffektueringsplanBeregningsfrekvens"
+               type="kombit2022int:Tekst50Type">
+            <xs:annotation>
+               <xs:documentation>  Et udtryk for den frekvens, som den bevilgede ydelse beregnes i, fx Daglig (dækker også engangsydelser)Ugentlig14 dageMånedligKvartårlig Hele udfaldsrummet er defineret i klassifikationen ”Beregningsfrekvens” i Fælleskommunalt Klassifikationssystem.   
+      </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:schema>

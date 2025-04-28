@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  targetNamespace="http://www.kombit.dk/int/2022/01/01/">
+         <wsdl:import namespace="http://serviceplatformen.dk/xml/wsdl/soap11/Security/Policy"
+                location="./policies/OIOIDWS.wsdl"/>
+         
+         <wsdl:import namespace="http://www.kombit.dk/int/2022/01/01/"
+                location="./wsdl/YdelseListeHentService.wsdl"/>
+         
+      </wsdl:definitions>

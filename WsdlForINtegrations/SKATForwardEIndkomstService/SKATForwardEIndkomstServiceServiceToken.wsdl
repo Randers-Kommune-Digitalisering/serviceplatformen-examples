@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <wsdl:definitions xmlns:kombit2017="http://www.kombit.dk/2017/01/01/"
+                        xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                        targetNamespace="http://www.kombit.dk/2017/01/01/">
+         <wsdl:import namespace="http://serviceplatformen.dk/xml/wsdl/soap11/Security/Policy"
+                      location="./policies/Token.wsdl"/>
+         
+         <wsdl:import namespace="http://www.kombit.dk/2017/01/01/"
+                      location="./wsdl/SKATForwardEIndkomstServiceService.wsdl"/>
+         
+      </wsdl:definitions>

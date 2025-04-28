@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+         <xs:include schemaLocation="../types/Tekst50Type.xsd"/>
+         
+         <xs:element name="AnsvarligAfdelingBrugervendtNoegle" type="kombit2022int:Tekst50Type">
+            <xs:annotation>
+               <xs:documentation>  Den brugervendte nøgle er en unik identifikation af en organisation eller en organisatorisk enhed, som en bruger kan forstå. Det kan fx være et institutionsnummer eller et afdelingsnummer.  
+      </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:schema>

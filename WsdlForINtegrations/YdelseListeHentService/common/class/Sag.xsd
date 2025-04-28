@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         <xs:annotation>
+               <xs:documentation>  Sag forstås som en samling af sammenhørende dokumenter og øvrige sammenhørende oplysninger, der i sit hele anvendes til at dokumentere en arbejdsproces, typisk til administrative formål, herunder til at træffe afgørelser. En sag består af et antal dokumenter, der vedrører det samme begivenhedsforløb. Et dokument kan indgå i flere sager, dvs. have relation til flere begivenhedsforløb. En sag samler forskellige oplysninger og dokumenter, der vedrører et bestemt formål. Begrebet kan sammenlignes med et fysisk omslag. Der findes forskellige typer af sager: enkeltsag (de oplysninger, der ligger til grund for en afgørelse), dossiersager (en sag om en bestemt person eller objekt), samlesag (oplysninger om et bestemt emne) og projektsag, dagsordenssag osv. Sager kan indgå i andre sager.  
+      </xs:documentation>
+            </xs:annotation>
+         <xs:include schemaLocation="../types/Tekst255Type.xsd"/>
+         <xs:include schemaLocation="../types/Tekst4096Type.xsd"/>
+         <xs:include schemaLocation="../types/Tekst100Type.xsd"/>
+         <xs:include schemaLocation="../types/MarkeringType.xsd"/>
+         <xs:include schemaLocation="../types/UUIDType.xsd"/>
+         <xs:element name="SagBrugervendtNoegle" type="kombit2022int:Tekst255Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Brugervendt identifikation, der er unik inden for myndigheden. BrugervendtNøgle tildeles ved oprettelse af sagen og må efterfølgende ikke ændres. Ved eksport fra én myndighed og import til en anden myndighed risikerer man dog, at den brugervendte nøgle ikke længere er unik.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagSagsnummer" type="kombit2022int:Tekst255Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Frit sagsnummer  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagTitel" type="kombit2022int:Tekst255Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Sagens titel, som offentligheden må se.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagBeskrivelse" type="kombit2022int:Tekst4096Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Sagsbeskrivelse i fri tekst. Evt. supplerende beskrivelse af indhold og formål.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagHjemmel" type="kombit2022int:Tekst255Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Henvisning til hjemmel fx lov og § for sagens behandling.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagOffentlighedUndtaget" type="kombit2022int:Tekst100Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Angives, hvis der er truffet beslutning om undtagelse fra offentligheden. Værdisættet består af de to følgende elementer, AlternativTitel og OffentlighedUndtagetHjemmel  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagAlternativTitel" type="kombit2022int:Tekst255Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Alternativ journalnotatstitel, der kan anvendes i forbindelse med lukkede dagsordenspunkter, som skal vises på åbne dagsordener samt i forbindelse med postlister.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagOffentlighedUndtagetHjemmel" type="kombit2022int:Tekst100Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Tekstuel henvisning til lovhjemmel, der anvendes som grundlag for beslutning om undtagelse fra offentligheden.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagPrincipiel" type="kombit2022int:MarkeringType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Indikator for om sag er udnævnt som principsag.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagKassationskode" type="kombit2022int:Tekst100Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Kassationskode, der styrer varighed før kassation.  Kassationskoden angiver koden for varighed før mulig kassation af sagen. Sagsservicen sætter dog ikke på denne baggrund tilstand Livscyklus til værdien Slettet frem i tiden. En sådan tildeling af tilstand Livscyklus overlades til det enkelte system (service), afhængig af sagens forretningskontekst. Der kan angives en af følgende værdier:• B: Bevares• K: Kan kasseres efter afslutning.   
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagAfleveret" type="kombit2022int:MarkeringType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Er afleveret til Statens Arkiver/ §7 arkiv.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="SagUUID" type="kombit2022int:UUIDType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Unik ident for sagen  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+      </xs:schema>

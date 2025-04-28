@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+                  name="YdelseListeHentService">
+         <xs:annotation xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:documentation>  Servicen giver mulighed for at fremsøge oplysninger om bevilgede ydelser og effektueringer for en bevillingsmodtager (primær part på sagen) og/eller effektueringsmodtager. Søgningen kan kun ske inden for egen sektor, dvs. det kan være UDK, der søger ydelser inden for egen myndighed, eller en kommune, der søger ydelser inden for én eller flere kommuner.  
+      </xs:documentation>
+            <xs:documentation>r4697</xs:documentation>
+         </xs:annotation>
+         
+         <wsdl:types>
+            <xsd:schema xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+                  xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  targetNamespace="http://www.kombit.dk/int/2022/01/01/">
+               <xsd:include schemaLocation="../service/YdelseListeHentInterface.xsd"/>
+               
+            </xsd:schema>
+         </wsdl:types>
+         <wsdl:message name="m_BevillingHent_O">
+            <wsdl:part name="BevillingHentResponse" element="kombit2022int:BevillingHent_O"/>
+         </wsdl:message>
+         <wsdl:message name="m_BevillingHent_I">
+            <wsdl:part name="BevillingHentRequest" element="kombit2022int:BevillingHent_I"/>
+         </wsdl:message>
+         <wsdl:message name="m_EffektueringHent_O">
+            <wsdl:part name="EffektueringHentResponse" element="kombit2022int:EffektueringHent_O"/>
+         </wsdl:message>
+         <wsdl:message name="m_EffektueringHent_I">
+            <wsdl:part name="EffektueringHentRequest" element="kombit2022int:EffektueringHent_I"/>
+         </wsdl:message>
+         <wsdl:portType name="YdelseListeHentServicePortType">
+            <wsdl:operation name="BevillingHent">
+               <wsdl:input name="BevillingHentRequest" message="kombit2022int:m_BevillingHent_I"/>
+               <wsdl:output name="BevillingHentRequest" message="kombit2022int:m_BevillingHent_O"/>
+            </wsdl:operation>
+            <wsdl:operation name="EffektueringHent">
+               <wsdl:input name="EffektueringHentRequest" message="kombit2022int:m_EffektueringHent_I"/>
+               <wsdl:output name="EffektueringHentRequest" message="kombit2022int:m_EffektueringHent_O"/>
+            </wsdl:operation>
+         </wsdl:portType>
+      </wsdl:definitions>

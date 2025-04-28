@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://kombit.dk/xml/schemas/kontekst/2017/01/01/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xs:element name="TransaktionsId" type="kontekst:TransaktionsIdType">
+		<xs:annotation>
+			<xs:documentation>Unik identifier for konversation. Når kald og svar hænger sammen som dele af samme konversation, bruges samme TransaktionsId i både kald og svar. Når et kald passeres videre til eller fra et undersystem, passeres TransaktionsId også videre uændret.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:simpleType name="TransaktionsIdType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

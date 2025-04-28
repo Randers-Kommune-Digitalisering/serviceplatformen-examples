@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2016 rel. 2 sp1 (http://www.altova.com) by Eskild Nejsum (KOMBIT A/S) -->
+<xs:schema xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://kombit.dk/xml/schemas/kontekst/2017/01/01/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xs:include schemaLocation="TransaktionsId.xsd"/>
+	<xs:include schemaLocation="TransaktionsTid.xsd"/>
+	<xs:include schemaLocation="KildeId.xsd"/>
+	<xs:import namespace="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+                    schemaLocation="LimitedXPath.xsd"/>
+	<!-- HovedOplysningerSvar -->
+	<xs:complexType name="HovedOplysningerSvarType">
+		<xs:sequence>
+			<xs:element ref="kontekst:TransaktionsId"/>
+			<xs:element ref="kontekst:TransaktionsTid"/>
+			<!--<xs:element ref="kontekst:KildeId"/>-->
+			<xs:element name="SvarReaktion" type="kontekst:SvarReaktionType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation/>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Fejl" type="kontekst:FejlType">
+		<xs:annotation>
+			<xs:documentation>En besked om en handling der ikke kunne gennemføres.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="FejlType">
+		<xs:sequence>
+			<xs:element ref="kontekst:FejlId"/>
+			<xs:element ref="kontekst:FejlTekst"/>
+			<xs:element ref="kontekst:KildeId" minOccurs="0"/>
+			<xs:element ref="kontekst:Identifikation" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="FejlId" type="kontekst:FejlIdType">
+		<xs:annotation>
+			<xs:documentation>Unik identifikation for fejlen fra fejludstederen. Sammen med KildeId er fejlen unik på tværs af systemer.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:simpleType name="FejlIdType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="FejlTekst" type="kontekst:FejlTekstType">
+		<xs:annotation>
+			<xs:documentation>Beskrivende tekst for fejlen. Udfyldes af fejludsteder.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:simpleType name="FejlTekstType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="Advis" type="kontekst:AdvisType">
+		<xs:annotation>
+			<xs:documentation>En advis er en besked til kalder, som ikke er en fejl, men kan være nødvendig at kommunikere.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="AdvisType">
+		<xs:sequence>
+			<xs:element ref="kontekst:AdvisId"/>
+			<xs:element ref="kontekst:AdvisTekst"/>
+			<xs:element ref="kontekst:KildeId" minOccurs="0"/>
+			<xs:element ref="kontekst:Identifikation" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AdvisId" type="kontekst:AdvisIdType">
+		<xs:annotation>
+			<xs:documentation>Unik identifikation for advis fra advisudstederen. Sammen med KildeId er advisen unik på tværs af systemer.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:simpleType name="AdvisIdType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="AdvisTekst" type="kontekst:AdvisTekstType">
+		<xs:annotation>
+			<xs:documentation>Beskrivende tekst for advisen. Udfyldes af advisudsteder.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:simpleType name="AdvisTekstType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="SvarReaktionType">
+		<xs:choice>
+			<xs:element ref="kontekst:Advis"/>
+			<xs:element ref="kontekst:Fejl"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:element name="Identifikation">
+		<xs:annotation>
+			<xs:documentation>Giver mulighed for, at passere variable værdier der beskriver fejl eller advis detaljeret, og gøre disse variable maskinelt processerbare for modtager.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:any namespace="##other" processContents="skip"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

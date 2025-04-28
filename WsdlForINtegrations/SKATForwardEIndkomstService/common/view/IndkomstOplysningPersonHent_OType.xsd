@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <xs:schema xmlns:kombit2017="http://www.kombit.dk/2017/01/01/"
+                 xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                 targetNamespace="http://www.kombit.dk/2017/01/01/"
+                 elementFormDefault="qualified"
+                 attributeFormDefault="unqualified"
+                 version="1.0">
+         
+         
+         <xs:import namespace="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+                    schemaLocation="../context/KontekstType.xsd"/>
+			  
+			      
+         <xs:include schemaLocation="../../import/SF0770_A/IOPH/KOMBITServiceInterface.xsd"/>
+         
+         <xs:element name="IndkomstOplysningPersonHent_O">
+            <xs:complexType>
+               <xs:complexContent>
+                  <xs:extension base="kombit2017:IndkomstOplysningPersonHent_OType">
+                     <xs:attribute name="revision">
+                        <xs:simpleType>
+                           <xs:restriction base="xs:string">
+                              <xs:pattern value="r5123"/>
+                           </xs:restriction>
+                        </xs:simpleType>
+                     </xs:attribute>
+                  </xs:extension>
+               </xs:complexContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:complexType name="IndkomstOplysningPersonHent_OType">
+            <xs:sequence>
+               <xs:element ref="kontekst:HovedOplysningerSvar"/>
+               <!--Sequence removed-->
+                  
+                     <xs:element ref="kombit2017:IndkomstPersonUddata" minOccurs="0"/>
+                  
+               
+            </xs:sequence>
+         </xs:complexType>
+      </xs:schema>

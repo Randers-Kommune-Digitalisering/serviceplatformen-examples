@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         
+         
+         <xs:annotation>
+            <xs:documentation>  Bevilgede ydelser og effektueringer for en partØkonomiskEffektueringStruktur er optionel for det teoretiske tilfælde at den bevilgedeYdelse og dens ØkonomiskeYdelsesEffektueringer må returneres, men at der indgår ØkonomiskYdelsesEffektueringer fra andre bevillinger i den ØkonomiskeEffektuering som ikke må returneres  
+      </xs:documentation>
+            <xs:documentation>r4697</xs:documentation>
+         </xs:annotation>
+         <xs:import namespace="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+              schemaLocation="../context/KontekstType.xsd"/>
+			  
+			      
+         <xs:include schemaLocation="../class/Klasse.xsd"/>
+         <xs:include schemaLocation="../class/Ydelse.xsd"/>
+         <xs:include schemaLocation="../class/BevilgetYdelse.xsd"/>
+         <xs:include schemaLocation="../operational/BevilgetYdelseKLEEmne.xsd"/>
+         
+         <xs:include schemaLocation="../class/Part.xsd"/>
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringsplanYdelsesbeloeb.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringsplanBeregningsfrekvens.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringsplanForudBagud.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringsplanDispositionsdag.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringsplanSkalManueltGodkendes.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskYdelseseffektueringBeloeb.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskYdelseseffektueringPeriodeFra.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskYdelseseffektueringPeriodeTil.xsd"/>
+         
+         <xs:include schemaLocation="../view/OekonomiskEffektueringStrukturType.xsd"/>
+         
+         <xs:include schemaLocation="../view/BevillingStrukturType.xsd"/>
+         
+         <xs:element name="BevillingHent_O">
+            <xs:complexType>
+               <xs:complexContent>
+                  <xs:extension base="kombit2022int:BevillingHent_OType">
+                     <xs:attribute name="revision">
+                        <xs:simpleType>
+                           <xs:restriction base="xs:string">
+                              <xs:pattern value="r4697"/>
+                           </xs:restriction>
+                        </xs:simpleType>
+                     </xs:attribute>
+                  </xs:extension>
+               </xs:complexContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:complexType name="BevillingHent_OType">
+            <xs:sequence>
+               <xs:element ref="kontekst:HovedOplysningerSvar"/>
+               
+                  
+                     <xs:element name="BevilgetYdelseListe" minOccurs="0">
+                        <xs:complexType>
+                           <xs:sequence>
+                              <xs:element name="BevilgetYdelse" minOccurs="1" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                    <xs:sequence>
+                                       
+                                          <xs:element name="YdelseKlasse" minOccurs="0">
+                                             <xs:complexType>
+                                                <xs:sequence>
+                                                   
+                                                      <xs:element ref="kombit2022int:KlasseIdentifikation" minOccurs="0"/>
+                                                   
+                                                   
+                                                      <xs:element ref="kombit2022int:KlasseUrnReference" minOccurs="0"/>
+                                                   
+                                                </xs:sequence>
+                                             </xs:complexType>
+                                          </xs:element>
+                                       
+                                       <xs:element ref="kombit2022int:YdelseNavn"/>
+                                       <xs:element ref="kombit2022int:BevilgetYdelseID"/>
+                                       
+                                          <xs:element ref="kombit2022int:BevilgetYdelseNavn" minOccurs="0"/>
+                                       
+                                       
+                                          <xs:element ref="kombit2022int:BevilgetYdelseBegrundelse" minOccurs="0"/>
+                                       
+                                       
+                                          <xs:element ref="kombit2022int:BevilgetYdelseEffektueringsPlanBeskrivelse" minOccurs="0"/>
+                                       
+                                       <xs:element ref="kombit2022int:BevilgetYdelseStartDato"/>
+                                       
+                                          <xs:element ref="kombit2022int:BevilgetYdelseSlutDato" minOccurs="0"/>
+                                       
+                                       <xs:element ref="kombit2022int:BevilgetYdelseKLEEmne"/>
+                                       <xs:element name="BevilgetYdelseEffektueringModtager">
+                                          <xs:complexType>
+                                             <xs:sequence>
+                                                <xs:element ref="kombit2022int:PartType"/>
+                                                <xs:element ref="kombit2022int:PartURN"/>
+                                                
+                                                   <xs:element ref="kombit2022int:PartFuldtNavn" minOccurs="0"/>
+                                                
+                                                
+                                                   <xs:element ref="kombit2022int:PartCPRNummer" minOccurs="0"/>
+                                                
+                                                
+                                                   <xs:element ref="kombit2022int:PartCVRNummer" minOccurs="0"/>
+                                                
+                                                
+                                                   <xs:element ref="kombit2022int:PartPNummer" minOccurs="0"/>
+                                                
+                                             </xs:sequence>
+                                          </xs:complexType>
+                                       </xs:element>
+                                       
+                                          <xs:element ref="kombit2022int:OekonomiskEffektueringsplanYdelsesbeloeb" minOccurs="0"/>
+                                       
+                                       
+                                          <xs:element ref="kombit2022int:OekonomiskEffektueringsplanBeregningsfrekvens" minOccurs="0"/>
+                                       
+                                       
+                                          <xs:element ref="kombit2022int:OekonomiskEffektueringsplanForudBagud" minOccurs="0"/>
+                                       
+                                       
+                                          <xs:element ref="kombit2022int:OekonomiskEffektueringsplanDispositionsdag" minOccurs="0"/>
+                                       
+                                       
+                                          <xs:element ref="kombit2022int:OekonomiskEffektueringsplanSkalManueltGodkendes"
+                                       minOccurs="0"/>
+                                       
+                                       
+                                          <xs:element name="OEkonomiskYdelseseffektueringListe" minOccurs="0">
+                                             <xs:complexType>
+                                                <xs:sequence>
+                                                   <xs:element name="OEkonomiskYdelseseffektuering" minOccurs="1" maxOccurs="unbounded">
+                                                      <xs:complexType>
+                                                         <xs:sequence>
+                                                            <xs:element ref="kombit2022int:OekonomiskYdelseseffektueringBeloeb"/>
+                                                            <xs:element ref="kombit2022int:OekonomiskYdelseseffektueringPeriodeFra"/>
+                                                            
+                                                               <xs:element ref="kombit2022int:OekonomiskYdelseseffektueringPeriodeTil" minOccurs="0"/>
+                                                            
+                                                            
+                                                               <xs:element ref="kombit2022int:OekonomiskEffektueringStruktur" minOccurs="0"/>
+                                                            
+                                                         </xs:sequence>
+                                                      </xs:complexType>
+                                                   </xs:element>
+                                                </xs:sequence>
+                                             </xs:complexType>
+                                          </xs:element>
+                                       
+                                       <xs:element ref="kombit2022int:BevillingStruktur"/>
+                                    </xs:sequence>
+                                 </xs:complexType>
+                              </xs:element>
+                           </xs:sequence>
+                        </xs:complexType>
+                     </xs:element>
+                  
+               
+            </xs:sequence>
+         </xs:complexType>
+      </xs:schema>

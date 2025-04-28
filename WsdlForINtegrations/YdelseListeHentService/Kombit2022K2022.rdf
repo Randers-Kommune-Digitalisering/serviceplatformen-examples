@@ -1,0 +1,3037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:MR="http://kombit.dk/xml/schemas/metadatarepository/"
+         xmlns:kombit2022="http://www.kombit.dk/2022/01/01/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-6043f4d9-c4ca-44d0-be88-027166a8b008"
+                    rdfs:label="Adresse">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Adresse.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Adresse.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst500Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst35Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst35Type.xsd"/>
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-66b584af-6079-46b2-a49e-8a7d2a2a6c9a"
+                    rdfs:label="Aktivitet">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Aktivitet.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Aktivitet.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoTidType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoTidType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst8000Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoTidType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-2590f421-4568-480b-b402-164d8e79c3e0"
+                    rdfs:label="BevilgetYdelse">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst1000Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst36Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-45c147af-a2f2-48ed-8e38-ceadf2551db2"
+                    rdfs:label="Bevilling">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Bevilling.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst500Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/FølsomhedType.xsd"/>
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-04cf703d-4c50-4fd9-bbe0-dc765828849f"
+                    rdfs:label="Bruger">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Bruger.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Bruger.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-22c314f5-88b8-4dd9-b412-700e0aa46aed"
+                    rdfs:label="Dokument">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Dokument.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Dokument.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst1024Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-0866a396-e76c-4c0c-b913-4d89116ca49d"
+                    rdfs:label="DokumentTilstand">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/DokumentTilstand.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/DokumentTilstand.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-032e795c-366a-4bd6-8e6b-f3ecbf520e33"
+                    rdfs:label="ItSystemInstans">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-e1587c6e-56da-4aef-a1e9-fcf96c9e07bf"
+                    rdfs:label="ItSystemInstansForbindelse">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstansForbindelse.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ItSystemInstansForbindelse.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst17Type.xsd"/>
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-96ec2131-95be-4e4c-9120-4dce4490a046"
+                    rdfs:label="Journalnotat">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Journalnotat.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Journalnotat.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst500Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+            
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-1dd3aba3-d444-40c2-a673-1f900bd8d897"
+                    rdfs:label="Klasse">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Klasse.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Klasse.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst50Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst300Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst10KType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoTidType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoTidType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/URNType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/TalHel1Til100Type.xsd"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-a558c1c7-c125-46a3-bea5-f872a4eb9fce"
+                    rdfs:label="Myndighed">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Myndighed.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Myndighed.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/TalHel4Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MyndighedTypeType.xsd"/>
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-f5fe6dc4-baed-4f4f-8e09-0fa561d876a3"
+                    rdfs:label="Organisation">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Organisation.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Organisation.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-c15f76c6-75c8-4c58-982c-cbd9c3fcc2a2"
+                    rdfs:label="Organisationsenhed">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Organisationsenhed.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Organisationsenhed.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-25eea178-cc43-400a-87aa-cb433ef72dad"
+                    rdfs:label="Part">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Part.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/PartTypeType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/URNType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/CPRNummerType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/CVRNumberType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/PNummerType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SandFalskType.xsd"/>
+            
+            
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-88677603-1144-48ed-b41e-90321ac84a84"
+                    rdfs:label="Person">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Person.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Person.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/PersonstatusType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KoenType.xsd"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-7b57b46d-d857-4ec1-81b6-dce8d393468c"
+                    rdfs:label="Produktionsenhed">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Produktionsenhed.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Produktionsenhed.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/PNummerType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-9ae66d56-15e2-4226-a1c3-e3ee30bfbbfa"
+                    rdfs:label="Reference">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Reference.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Reference.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-e139d34d-7cc3-4192-92b2-27c6369c66fb"
+                    rdfs:label="Sag">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Sag.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Sag.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-4e905a18-80bf-4e90-9bdc-102842418a10"
+                    rdfs:label="Sagstilstand">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Sagstilstand.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Sagstilstand.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-ac14e4b3-b0ec-4580-b60d-b5bb30651f09"
+                    rdfs:label="Virksomhed">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Virksomhed.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Virksomhed.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/CVRNummerType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-2c62f7b9-59a8-4c13-b09a-2ac7918f8d9b"
+                    rdfs:label="Ydelse">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Ydelse.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/Ydelse.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-7b19513e-a005-4fc7-ab5c-f2b60580208c"
+                    rdfs:label="ØkonomiskEffektuering">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektuering.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ØkonomiskEffektuering.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BeløbType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BeløbType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst50Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BeløbType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BeløbType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BeløbType.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-67fd396e-7ed0-40ef-b09f-f5dcc1443989"
+                    rdfs:label="ØkonomiskEffektueringsplan">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringsplan.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringsplan.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+            
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-ca4cbb8d-ec46-4a3d-a0a9-d2911b1c3878"
+                    rdfs:label="ØkonomiskYdelseseffektuering">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskYdelseseffektuering.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ØkonomiskYdelseseffektuering.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+	           <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Type.xsd"/>
+            
+            
+            
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-cbae1b75-44e5-4dd0-9d9c-fcc8cd9b480d">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/AdresseBeskyttelseMarkering.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseBeskyttelseMarkering.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/AdresseBeskyttelseMarkering"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseBeskyttelseMarkering.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-e00bdbdb-f563-407c-a77c-0f921e7f0e7b">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/AdresseLandekode.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseLandekode.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/AdresseLandekode"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseLandekode.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/LandKodeType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-fe177989-32dc-43c3-a812-3e35541969cd">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/AdresseLandenavn.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseLandenavn.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/AdresseLandenavn"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseLandenavn.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-ce3986b9-836c-4ab7-a6f7-6b8ea22c02bc">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/AdresseMarkering.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseMarkering.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/AdresseMarkering"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseMarkering.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/HistorikMarkeringType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-c33d7288-f755-4560-afa0-2cac860395fc">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/AdresseSomTekst.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseSomTekst.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/AdresseSomTekst"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseSomTekst.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst1000Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-ca0bbf46-470f-40fb-a436-48f067c05383">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/AdresseUUID.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseUUID.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/AdresseUUID"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AdresseUUID.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-77a73a2f-8073-4363-89d4-ed40a17d8405">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingBrugervendtNoegle.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingBrugervendtNoegle.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingBrugervendtNoegle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingBrugervendtNoegle.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst50Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-8f831c8a-b55b-4980-9a2d-bf46f3c60969">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingFuldtNavn.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingFuldtNavn.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingFuldtNavn"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingFuldtNavn.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-ce2be287-9ca9-4e1d-88c7-b6eee21ca817">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingURN.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingURN.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingURN"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingURN.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/URNType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-11b63397-b956-46d3-afa2-e0455fb4e112">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmne.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmne.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmne"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmne.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KLEEmneType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-44f55860-50b2-4be8-9f98-38f3f5b8a560">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmneTitel.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmneTitel.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmneTitel"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmneTitel.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-b2c2b90e-fd3d-4b73-ac77-a8d167bd6555">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSlutDatoFra.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseSlutDatoFra.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSlutDatoFra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseSlutDatoFra.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-3624fc30-8e7a-428c-bbe3-650e0ddda379">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSlutDatoTil.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseSlutDatoTil.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSlutDatoTil"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseSlutDatoTil.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-18ab58c6-0778-44e1-b974-12ab708c5bed">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSorteringElement.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseSorteringElement.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSorteringElement"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseSorteringElement.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSorteringElementType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-9236aba3-a010-46be-9df2-8a81015b7c3f">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseStartDatoFra.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseStartDatoFra.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseStartDatoFra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseStartDatoFra.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-53d77d53-57ee-40b0-ac7d-f5ebbea922aa">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseStartDatoTil.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseStartDatoTil.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseStartDatoTil"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseStartDatoTil.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-db82f86e-aea8-430d-8dc5-779950d8ad6a">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevillingEjerCVRNummer.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingEjerCVRNummer.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/BevillingEjerCVRNummer"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingEjerCVRNummer.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/CVRNumberType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-c43ebf04-8bcc-4b05-a2ed-5c29493e7995">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/DokumentJournaliseringsdato.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/DokumentJournaliseringsdato.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/DokumentJournaliseringsdato"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/DokumentJournaliseringsdato.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-8cd3d727-bd2d-439b-9a7f-38f288a5df8d">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/DokumentUUID.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/DokumentUUID.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/DokumentUUID"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/DokumentUUID.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-df45d7b5-7b9d-4395-982f-fc165d875a96">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringSorteringElement.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringSorteringElement.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringSorteringElement"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringSorteringElement.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringSorteringElementType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-8f2c93b0-6588-4adc-beae-b3849767dec3">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/FjernUndtagetVisningForBorger.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/FjernUndtagetVisningForBorger.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/FjernUndtagetVisningForBorger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/FjernUndtagetVisningForBorger.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-08689114-a715-4663-9095-2f8d81df6eb5">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/KlasseEjerCVRNummer.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KlasseEjerCVRNummer.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/KlasseEjerCVRNummer"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KlasseEjerCVRNummer.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/CVRNummerType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-f8f3e980-5e61-41de-8a6b-79c68148f6c1">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/KlasseMapningType.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KlasseMapningType.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/KlasseMapningType"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KlasseMapningType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KlasseMapningTypeType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-1f8c970c-bf23-4e32-949e-59fbe7fd7966">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/KlasseMapningVirkningFra.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KlasseMapningVirkningFra.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/KlasseMapningVirkningFra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KlasseMapningVirkningFra.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-9aeb9020-4728-4f61-88c9-8034373feed4">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/KlasseMapningVirkningTil.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KlasseMapningVirkningTil.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/KlasseMapningVirkningTil"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KlasseMapningVirkningTil.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-72b92737-04e7-46a5-b259-996de741935a">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/KLEDataAfgr.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KLEDataAfgr.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/KLEDataAfgr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KLEDataAfgr.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KLEDataAfgrType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-872439bf-8601-4e05-b407-cce5fce0751d">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/KLEKriterie.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KLEKriterie.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/KLEKriterie"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/KLEKriterie.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KLEDataAfgrType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-c727f299-acd8-4455-b8b4-ffb107039997">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/LovDataAfgr.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/LovDataAfgr.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/LovDataAfgr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/LovDataAfgr.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/LovDataAfgrType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-1f477e59-e2c3-45c1-a03e-7a2e8356c359">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/LovKriterie.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/LovKriterie.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/LovKriterie"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/LovKriterie.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/LovAfgrType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-ca7bc9d3-835b-4dc8-a575-73e776663d06">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/MedtagBevilling.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/MedtagBevilling.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/MedtagBevilling"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/MedtagBevilling.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-1b1ea0df-1649-4871-ae63-5f77771c394e">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/MedtagEffektueringer.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/MedtagEffektueringer.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/MedtagEffektueringer"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/MedtagEffektueringer.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-020501b5-df66-45ab-9ee1-afcf5fa04aca">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringBeloebEfterSkatATP.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringBeloebEfterSkatATP.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringBeloebEfterSkatATP"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringBeloebEfterSkatATP.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DecimalTal15_2Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-8b40914f-4e41-45c5-98da-d17b308078eb">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringBeloebSendtTilUdbetaling.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringBeloebSendtTilUdbetaling.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringBeloebSendtTilUdbetaling"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringBeloebSendtTilUdbetaling.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DecimalTal15_2Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-2ee4475c-9e6c-43c7-bba0-237d9493e5f1">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsdato.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsdato.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsdato"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsdato.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-ab6c903d-dae1-4a76-8f73-dee3188d8f7e">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoFra.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoFra.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoFra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoFra.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-b1ed2855-13ce-4158-94e2-34c48059241b">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoTil.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoTil.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoTil"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoTil.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-ec0826d5-b7cb-4c97-9aaa-054ada7bcdaf">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSamletBruttobeloeb.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSamletBruttobeloeb.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSamletBruttobeloeb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSamletBruttobeloeb.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DecimalTal15_2Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-576b1adf-95ac-41b3-9d47-e36cac4c371a">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSendtTilUdbetalingTekst.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSendtTilUdbetalingTekst.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSendtTilUdbetalingTekst"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSendtTilUdbetalingTekst.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-5d557ece-4ce1-43c4-9619-545a39343755">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSlutDato.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSlutDato.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSlutDato"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSlutDato.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-1655a713-7b72-45e5-8255-aff8781c2d95">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanBeregningsfrekvens.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanBeregningsfrekvens.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanBeregningsfrekvens"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanBeregningsfrekvens.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst50Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-0a62c929-777a-430a-a984-621faffb1f20">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanDispositionsdag.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanDispositionsdag.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanDispositionsdag"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanDispositionsdag.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst50Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-b58ffe5a-922d-4b3c-a498-f5c95bea12e5">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanForudBagud.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanForudBagud.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanForudBagud"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanForudBagud.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ForudBagudType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-9cc4921c-1124-40f4-85b8-a1278a5175c8">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanSkalManueltGodkendes.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanSkalManueltGodkendes.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanSkalManueltGodkendes"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanSkalManueltGodkendes.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-d95787ea-ca6d-4c51-9e8a-cc2095d4a7d8">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanYdelsesbeloeb.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanYdelsesbeloeb.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanYdelsesbeloeb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanYdelsesbeloeb.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DecimalTal15_2Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-60e057a7-aafe-4209-9032-e7d5bcb85eaa">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStartDato.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStartDato.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStartDato"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStartDato.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-f50aaa62-22ee-4fd4-9561-ecfe2eea937f">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetalingStatus.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetalingStatus.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetalingStatus"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetalingStatus.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst50Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-0bdb0373-17df-42d6-8e4f-8c3c530275a9">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetaltTekst.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetaltTekst.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetaltTekst"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetaltTekst.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-cea72945-e554-4e13-8d1c-817107624804">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUUID.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUUID.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUUID"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUUID.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-c11cd360-1a8d-47d4-a39a-a99c93787adc">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringBeloeb.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringBeloeb.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringBeloeb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringBeloeb.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DecimalTal15_2Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-4bed69c8-c050-40de-902f-71dcc9926543">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeFra.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeFra.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeFra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeFra.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-d7b74398-f8ad-48b6-a549-e9eb95c4322c">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeTil.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeTil.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeTil"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeTil.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-9c0693e2-3481-4acf-93fa-9c13092edc14">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/PartErPerson.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/PartErPerson.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/PartErPerson"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/PartErPerson.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-a5b78dd3-7e07-4cd9-9273-7f4955c40fcc">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/PartRolle.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/PartRolle.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/PartRolle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/PartRolle.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/PartRolleTypeType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-e2157d6c-2730-425a-b7e9-0e80bb2a41fd">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/PersonStatusMarkering.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/PersonStatusMarkering.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/PersonStatusMarkering"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/PersonStatusMarkering.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/HistorikMarkeringType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-7b57b46d-d857-4928-beac-5449f047a9f2">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ProduktionsenhedTilknyttetTilVirksomhedOphørsdato.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ProduktionsenhedTilknyttetTilVirksomhedOphørsdato.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/ProduktionsenhedTilknyttetTilVirksomhedOphørsdato"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ProduktionsenhedTilknyttetTilVirksomhedOphørsdato.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-7b57b46d-d857-48f4-96b7-1b76d3eebded">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ProduktionsenhedTilknyttetTilVirksomhedStartdato.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ProduktionsenhedTilknyttetTilVirksomhedStartdato.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/ProduktionsenhedTilknyttetTilVirksomhedStartdato"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ProduktionsenhedTilknyttetTilVirksomhedStartdato.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-b2273fad-b115-43f4-8299-6bb09fc22a00">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ResultatAntalMaks.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ResultatAntalMaks.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/ResultatAntalMaks"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ResultatAntalMaks.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/TalHel4Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-d2cce1fb-c1d9-4767-8559-98e662490119">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ResultatStart.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ResultatStart.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/ResultatStart"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ResultatStart.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/TalHel8Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-eb65564f-78ba-4fe6-8abd-d75f07790459">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SagEjerCVRNummer.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagEjerCVRNummer.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/SagEjerCVRNummer"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagEjerCVRNummer.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/CVRNumberType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-00a98771-9280-498b-886e-0006bb6560a4">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SagFoelsomhed.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagFoelsomhed.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/SagFoelsomhed"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagFoelsomhed.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/FølsomhedType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-6ddbf146-c32b-4e7b-9e30-2de64049c755">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SagKLEEmne.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagKLEEmne.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/SagKLEEmne"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagKLEEmne.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KLEEmneType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-d0f04e27-7e02-4929-ab32-cf3db17008b5">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SagKLEHandlingsfacet.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagKLEHandlingsfacet.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/SagKLEHandlingsfacet"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagKLEHandlingsfacet.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst50Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-47867795-e717-4c56-9d04-d3728aaaf058">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SagPartRolle.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagPartRolle.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/SagPartRolle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagPartRolle.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-93d264b9-b8a6-44fa-8ec5-8360653f04d2">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SagUndtagetVisningForBorger.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagUndtagetVisningForBorger.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/SagUndtagetVisningForBorger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SagUndtagetVisningForBorger.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-8f077994-9430-4d49-bb49-133d704ebd73">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SorteringRetning.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SorteringRetning.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/SorteringRetning"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SorteringRetning.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SorteringRetningType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-ae92a5f8-a5d4-42f6-86cb-f25c7292ebf8">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SystemDataAfgr.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SystemDataAfgr.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/SystemDataAfgr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/SystemDataAfgr.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SystemDataAfgrType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-423524db-7f60-403b-90be-0aead7adaac2">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringStartDatoFra.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringStartDatoFra.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringStartDatoFra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringStartDatoFra.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-80ee5d1b-85bd-4cf8-9db8-e17c6524f1fa">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringStartDatoTil.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringStartDatoTil.xsd">
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringStartDatoTil"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringStartDatoTil.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-8778770d-1cf3-4615-b4b8-402f723f1e5b"
+                    rdfs:label="BevillingHent_I">
+            <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:imports rdf:resource="kontekst:KontekstType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Sag.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/PartRolle.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MedtagEffektueringer.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/FjernUndtagetVisningForBorger.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Sag.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KLEKriterie.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevillingEjerCVRNummer.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Klasse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Klasse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseStartDatoFra.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseStartDatoTil.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSlutDatoFra.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSlutDatoTil.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoFra.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoTil.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Virksomhed.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KLEDataAfgr.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SystemDataAfgr.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ResultatAntalMaks.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ResultatStart.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSorteringElement.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SorteringRetning.xsd"/>
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-8c966bcd-1030-4a24-afcf-f6aaa13ccd7d"
+                    rdfs:label="BevillingHent_O">
+            <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:imports rdf:resource="kontekst:KontekstType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Klasse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Klasse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Ydelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmne.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanYdelsesbeloeb.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanBeregningsfrekvens.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanForudBagud.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanDispositionsdag.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanSkalManueltGodkendes.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringBeloeb.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeFra.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeTil.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd"/>
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-d9a6e8e1-1bb9-488c-ada0-98ce118f595a"
+                    rdfs:label="BevillingStruktur">
+            <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Virksomhed.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Organisationsenhed.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingURN.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingBrugervendtNoegle.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingFuldtNavn.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Sag.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Sag.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Sag.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SagFoelsomhed.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SagKLEEmne.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SagKLEHandlingsfacet.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SagEjerCVRNummer.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SagUndtagetVisningForBorger.xsd"/>
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-c80b3de6-5394-4330-91ce-617c427d006b"
+                    rdfs:label="EffektueringHent_I">
+            <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:imports rdf:resource="kontekst:KontekstType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/PartRolle.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/MedtagBevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/FjernUndtagetVisningForBorger.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoFra.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsDatoTil.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Virksomhed.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KLEDataAfgr.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SystemDataAfgr.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ResultatAntalMaks.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ResultatStart.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringSorteringElement.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SorteringRetning.xsd"/>
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-9b1dda74-3c97-4346-a10c-861ac12ab5bd"
+                    rdfs:label="EffektueringHent_O">
+            <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:imports rdf:resource="kontekst:KontekstType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringBeloeb.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeFra.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringPeriodeTil.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Klasse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Klasse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Ydelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmne.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanYdelsesbeloeb.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanBeregningsfrekvens.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanForudBagud.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanDispositionsdag.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanSkalManueltGodkendes.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevillingStrukturType.xsd"/>
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-62f44c9d-e38e-4d31-9f11-e5745d8e5b08"
+                    rdfs:label="EffektueringHentUDKKommune_I">
+            <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:imports rdf:resource="kontekst:KontekstType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/LovKriterie.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KLEKriterie.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/FjernUndtagetVisningForBorger.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringStartDatoFra.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektueringStartDatoTil.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Virksomhed.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/KLEDataAfgr.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SystemDataAfgr.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/LovDataAfgr.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ResultatAntalMaks.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ResultatStart.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SorteringRetning.xsd"/>
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-f7c726d9-02a2-4225-b1a4-ca60c2fc07cf"
+                    rdfs:label="EffektueringHentUDKKommune_O">
+            <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:imports rdf:resource="kontekst:KontekstType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUUID.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSamletBruttobeloeb.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringBeloebEfterSkatATP.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektuering.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektuering.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSendtTilUdbetalingTekst.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetaltTekst.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStartDato.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSlutDato.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskYdelseseffektueringBeloeb.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Klasse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Klasse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Ydelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelse.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseKLEEmne.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanBeregningsfrekvens.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanForudBagud.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringsplanDispositionsdag.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Bevilling.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Virksomhed.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Organisationsenhed.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingURN.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingBrugervendtNoegle.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/AnsvarligAfdelingFuldtNavn.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Sag.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SagFoelsomhed.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SagKLEEmne.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SagEjerCVRNummer.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/SagUndtagetVisningForBorger.xsd"/>
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-f3f0a9bf-3c26-417e-9162-6b59ab50b551"
+                    rdfs:label="OekonomiskEffektueringStruktur">
+            <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUUID.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringDispositionsdato.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSamletBruttobeloeb.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringBeloebEfterSkatATP.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektuering.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ØkonomiskEffektuering.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSendtTilUdbetalingTekst.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetalingStatus.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringUdbetaltTekst.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStartDato.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringSlutDato.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/ItSystemInstans.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/OekonomiskEffektueringStrukturType.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/Part.xsd"/>
+         </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-84ff1682-3c14-4b46-ab22-7cb591714ddd"
+                    rdfs:label="Beløb">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BeløbType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/BeløbType.xsd"
+                    rdfs:label="Beløb">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-45b15678-69d9-4ca7-809e-5990145205ed"
+                    rdfs:label="BevilgetYdelseSorteringElement">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/BevilgetYdelseSorteringElementType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/BevilgetYdelseSorteringElementType.xsd"
+                    rdfs:label="BevilgetYdelseSorteringElement">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-bb3a0884-3857-40be-b518-ce01415ee0b4"
+                    rdfs:label="CPRFødselsregistreringsstedKode">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/CPRFødselsregistreringsstedKodeType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/CPRFødselsregistreringsstedKodeType.xsd"
+                    rdfs:label="CPRFødselsregistreringsstedKode">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-a6cb6611-65e7-4fd6-a066-8919675ab2ed"
+                    rdfs:label="CPRNummer">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/CPRNummerType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/CPRNummerType.xsd"
+                    rdfs:label="CPRNummer">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-e795be21-52d7-498b-bb8c-97c14c3fde0e"
+                    rdfs:label="CVRNumber">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/CVRNumberType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/CVRNumberType.xsd"
+                    rdfs:label="CVRNumber">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-19c9e9d1-c3c4-4260-9428-58c0b29ca02a"
+                    rdfs:label="CVRNummer">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/CVRNummerType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/CVRNummerType.xsd"
+                    rdfs:label="CVRNummer">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-4e6bec21-22a2-42c7-af5e-8a71b0d608f6"
+                    rdfs:label="Dato">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/DatoType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/DatoType.xsd"
+                    rdfs:label="Dato">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-1fad0c96-5199-469a-9ed8-0d5359b56467"
+                    rdfs:label="DatoTid">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/DatoTidType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/DatoTidType.xsd"
+                    rdfs:label="DatoTid">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-fad4e866-b1d0-42bb-a888-08ef6f590164"
+                    rdfs:label="DecimalTal15_2">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/DecimalTal15_2Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/DecimalTal15_2Type.xsd"
+                    rdfs:label="DecimalTal15_2">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-1ec31cef-08b7-4a8a-b57b-9dc35a0667bb"
+                    rdfs:label="EffektueringSorteringElement">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringSorteringElementType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/EffektueringSorteringElementType.xsd"
+                    rdfs:label="EffektueringSorteringElement">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-1386c337-d553-4f8b-bbc2-7b95b60ff56f"
+                    rdfs:label="ForudBagud">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/ForudBagudType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/ForudBagudType.xsd"
+                    rdfs:label="ForudBagud">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-d77457d2-bed2-468e-875a-4eb354e85c02"
+                    rdfs:label="Følsomhed">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/FølsomhedType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/FølsomhedType.xsd"
+                    rdfs:label="Følsomhed">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-1f41b322-8267-4d76-a703-380af75ae207"
+                    rdfs:label="HistorikMarkering">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/HistorikMarkeringType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/HistorikMarkeringType.xsd"
+                    rdfs:label="HistorikMarkering">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-79894af8-703e-400a-974d-62aaaafd33e6"
+                    rdfs:label="KlasseMapningType">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/KlasseMapningTypeType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/KlasseMapningTypeType.xsd"
+                    rdfs:label="KlasseMapningType">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-c2fa8b8f-35c7-41ff-8e2b-26cc8a337026"
+                    rdfs:label="KLEDataAfgr">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/KLEDataAfgrType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/KLEDataAfgrType.xsd"
+                    rdfs:label="KLEDataAfgr">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-1e306dc5-d790-4577-a9e4-afce66345e5b"
+                    rdfs:label="KLEEmne">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/KLEEmneType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/KLEEmneType.xsd"
+                    rdfs:label="KLEEmne">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-42bbe826-d7bf-47bf-832e-e1ae7d891ad9"
+                    rdfs:label="Koen">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/KoenType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/KoenType.xsd"
+                    rdfs:label="Koen">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-e54fc8df-b860-493b-b85e-dc480f8ff012"
+                    rdfs:label="LandKode">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/LandKodeType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/LandKodeType.xsd"
+                    rdfs:label="LandKode">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-f5921f51-9e0f-410e-8691-9ba51befebeb"
+                    rdfs:label="LovAfgr">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/LovAfgrType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/LovAfgrType.xsd"
+                    rdfs:label="LovAfgr">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-fb9b0bf5-27e8-4832-bbb9-33a1c11898ec"
+                    rdfs:label="LovDataAfgr">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/LovDataAfgrType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/LovDataAfgrType.xsd"
+                    rdfs:label="LovDataAfgr">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-35aaf003-cb5b-43c9-9221-89c388d68386"
+                    rdfs:label="Markering">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/MarkeringType.xsd"
+                    rdfs:label="Markering">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-5a64afa2-5fce-4209-bc4e-5a36e056978d"
+                    rdfs:label="MyndighedType">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/MyndighedTypeType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/MyndighedTypeType.xsd"
+                    rdfs:label="MyndighedType">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-ebc656d7-756e-4724-91bf-55b2b88c2a1e"
+                    rdfs:label="PartRolleType">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/PartRolleTypeType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/PartRolleTypeType.xsd"
+                    rdfs:label="PartRolleType">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-b326602e-199d-4501-8b9e-9b700cf1ceeb"
+                    rdfs:label="PartType">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/PartTypeType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/PartTypeType.xsd"
+                    rdfs:label="PartType">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-cd1ff3db-250d-4124-8968-3e3776e9b299"
+                    rdfs:label="Personstatus">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/PersonstatusType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/PersonstatusType.xsd"
+                    rdfs:label="Personstatus">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-a1ab90d9-06fd-4ce7-9a49-6002cab733a5"
+                    rdfs:label="PNummer">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/PNummerType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/PNummerType.xsd"
+                    rdfs:label="PNummer">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-d00c800e-a18b-4fb8-b3f7-21e4f81542b3"
+                    rdfs:label="SandFalsk">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SandFalskType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/SandFalskType.xsd"
+                    rdfs:label="SandFalsk">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-c38a0d6b-e869-4bb0-acb7-c0d8534fffa1"
+                    rdfs:label="SorteringRetning">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SorteringRetningType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/SorteringRetningType.xsd"
+                    rdfs:label="SorteringRetning">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-717a7415-7c07-47d5-a9db-2549d9ba2050"
+                    rdfs:label="SystemDataAfgr">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/SystemDataAfgrType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/SystemDataAfgrType.xsd"
+                    rdfs:label="SystemDataAfgr">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-a26e323f-c60b-4b42-950e-ca3f20ee0b63"
+                    rdfs:label="TalHel1Til100">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/TalHel1Til100Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/TalHel1Til100Type.xsd"
+                    rdfs:label="TalHel1Til100">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-822f6431-1670-481f-914f-4e99e7eb69c2"
+                    rdfs:label="TalHel4">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/TalHel4Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/TalHel4Type.xsd"
+                    rdfs:label="TalHel4">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-6d2863d7-9f2c-42c2-ba41-b8c62c6980fe"
+                    rdfs:label="TalHel8">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/TalHel8Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/TalHel8Type.xsd"
+                    rdfs:label="TalHel8">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-b3702746-49b1-4cd5-aceb-ca555a86f420"
+                    rdfs:label="Tekst1">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst1Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst1Type.xsd"
+                    rdfs:label="Tekst1">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-6bbb96ea-97d8-49e4-83e4-d7185675be72"
+                    rdfs:label="Tekst2">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst2Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst2Type.xsd"
+                    rdfs:label="Tekst2">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-57d48d63-3556-43bf-b6ab-cd5e058b478a"
+                    rdfs:label="Tekst10K">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst10KType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst10KType.xsd"
+                    rdfs:label="Tekst10K">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-02899c73-2bdc-44f5-a263-f061f9ec53fe"
+                    rdfs:label="Tekst17">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst17Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst17Type.xsd"
+                    rdfs:label="Tekst17">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-eff77cfe-adc8-4b4e-aa2f-aec30cca8518"
+                    rdfs:label="Tekst35">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst35Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst35Type.xsd"
+                    rdfs:label="Tekst35">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-2355c8b9-c194-407c-81c5-d71afd55bfae"
+                    rdfs:label="Tekst36">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst36Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst36Type.xsd"
+                    rdfs:label="Tekst36">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-7343cff2-cced-4e95-9d27-aa70020d8143"
+                    rdfs:label="Tekst50">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst50Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst50Type.xsd"
+                    rdfs:label="Tekst50">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-76c3c483-bf9b-4f1a-9fdc-da3dc404435d"
+                    rdfs:label="Tekst100">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst100Type.xsd"
+                    rdfs:label="Tekst100">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-9798ac62-2e20-4ac7-b638-552484ef7d6c"
+                    rdfs:label="Tekst255">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst255Type.xsd"
+                    rdfs:label="Tekst255">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-47d2a644-dabf-4b92-8b52-75a36b4b25f4"
+                    rdfs:label="Tekst300">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst300Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst300Type.xsd"
+                    rdfs:label="Tekst300">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-8b26b5e8-34bd-48c2-aa89-e74dafe4b2db"
+                    rdfs:label="Tekst500">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst500Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst500Type.xsd"
+                    rdfs:label="Tekst500">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-b8f83247-d17d-4bab-a6b5-c3f7d7fd0111"
+                    rdfs:label="Tekst1000">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst1000Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst1000Type.xsd"
+                    rdfs:label="Tekst1000">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-4bb17171-9a20-4090-887c-1def5f6af4e4"
+                    rdfs:label="Tekst1024">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst1024Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst1024Type.xsd"
+                    rdfs:label="Tekst1024">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-19a7337e-8c1a-4735-9c9f-725b87c36f7d"
+                    rdfs:label="Tekst4096">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst4096Type.xsd"
+                    rdfs:label="Tekst4096">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-3bbde430-c04a-46c9-a9f2-005b63854171"
+                    rdfs:label="Tekst8000">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/Tekst8000Type.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/Tekst8000Type.xsd"
+                    rdfs:label="Tekst8000">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-1a6f23b0-a1f5-4ca8-ba83-6e53a2729487"
+                    rdfs:label="URN">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/URNType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/URNType.xsd"
+                    rdfs:label="URN">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.qualiware.com/guid-a2894f26-5835-4ca7-acc8-6f730192aa06"
+                    rdfs:label="UUID">
+         <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/UUIDType.xsd"/>
+      </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/UUIDType.xsd"
+                    rdfs:label="UUID">
+         <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+         
+      </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-850571a5-a3b1-4d5a-aca8-0d07dd0de235">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentInterface.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentInterface.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevillingHent_OType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentInterface.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/BevillingHent_IType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentInterface.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringHent_OType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentInterface.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringHent_IType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-850571a5-a3b1-4d5a-aca8-0d07dd0de235">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHent.wsdl"/>
+      <MR:hasInstance rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentService"/>
+   </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHent.wsdl"
+                    rdfs:label="http://www.kombit.dk/2022/01/01/YdelseListeHent.wsdl">
+      <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentService"/>
+   </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentService"
+                    rdfs:label="http://www.kombit.dk/2022/01/01/YdelseListeHentService">
+      <rdf:type rdf:resource="http://www.w3.org/TR/REC-xml-names/#NT-QName"/>
+      <dcmi:isVersionOf xmlns:dcmi="http://purl.org/dc/terms/"
+                        rdf:resource="http://www.qualiware.com/guid-850571a5-a3b1-4d5a-aca8-0d07dd0de235"/>
+      <dcmi:valid xmlns:dcmi="http://purl.org/dc/terms/">Valid from: --T::.00Z</dcmi:valid>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHent.wsdl">
+            <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentInterface.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHent.wsdl">
+                  <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+                  <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentInterface.xsd"/>
+               </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-850571a5-a3b1-4d5a-aca8-0d07dd0de235">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentService.wsdl"/>
+      <MR:hasInstance rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentService"/>
+   </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentService.wsdl"
+                    rdfs:label="http://www.kombit.dk/2022/01/01/YdelseListeHentService.wsdl">
+      <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentService"/>
+   </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentService"
+                    rdfs:label="http://www.kombit.dk/2022/01/01/YdelseListeHentService">
+      <rdf:type rdf:resource="http://www.w3.org/TR/REC-xml-names/#NT-QName"/>
+      <dcmi:isVersionOf xmlns:dcmi="http://purl.org/dc/terms/"
+                        rdf:resource="http://www.qualiware.com/guid-850571a5-a3b1-4d5a-aca8-0d07dd0de235"/>
+      <dcmi:valid xmlns:dcmi="http://purl.org/dc/terms/">Valid from: --T::.00Z</dcmi:valid>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentService.wsdl">
+            <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+            <MR:imports rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHent.wsdl"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-850571a5-a3b1-4d5a-aca8-0d07dd0de235">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentServiceOIOIDWS.wsdl"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentServiceOIOIDWS.wsdl">
+            <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+            <MR:imports rdf:resource="http://serviceplatformen.dk/xml/wsdl/soap11/Security/PolicyOIOIDWS.wsdl"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentServiceOIOIDWS.wsdl">
+            <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+            <MR:imports rdf:resource="http://www.kombit.dk/2022/01/01/http://www.kombit.dk/2022/01/01/YdelseListeHentService.wsdl"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-850571a5-a3b1-4d5a-aca8-0d07dd0de235">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentServiceToken.wsdl"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentServiceToken.wsdl">
+            <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+            <MR:imports rdf:resource="http://serviceplatformen.dk/xml/wsdl/soap11/Security/PolicyToken.wsdl"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentServiceToken.wsdl">
+            <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+            <MR:imports rdf:resource="http://www.kombit.dk/2022/01/01/http://www.kombit.dk/2022/01/01/YdelseListeHentService.wsdl"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-f6fa3b8a-7430-4817-b14d-f279816fb84a">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneInterface.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneInterface.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_OType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneInterface.xsd">
+            <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/EffektueringHentUDKKommune_IType.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-f6fa3b8a-7430-4817-b14d-f279816fb84a">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommune.wsdl"/>
+      <MR:hasInstance rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService"/>
+   </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommune.wsdl"
+                    rdfs:label="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommune.wsdl">
+      <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService"/>
+   </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService"
+                    rdfs:label="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService">
+      <rdf:type rdf:resource="http://www.w3.org/TR/REC-xml-names/#NT-QName"/>
+      <dcmi:isVersionOf xmlns:dcmi="http://purl.org/dc/terms/"
+                        rdf:resource="http://www.qualiware.com/guid-f6fa3b8a-7430-4817-b14d-f279816fb84a"/>
+      <dcmi:valid xmlns:dcmi="http://purl.org/dc/terms/">Valid from: --T::.00Z</dcmi:valid>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommune.wsdl">
+            <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+            <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneInterface.xsd"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommune.wsdl">
+                  <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+                  <MR:includes rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneInterface.xsd"/>
+               </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-f6fa3b8a-7430-4817-b14d-f279816fb84a">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService.wsdl"/>
+      <MR:hasInstance rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService"/>
+   </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService.wsdl"
+                    rdfs:label="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService.wsdl">
+      <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+      <MR:defines rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService"/>
+   </rdf:Description>
+   <rdf:Description xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService"
+                    rdfs:label="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService">
+      <rdf:type rdf:resource="http://www.w3.org/TR/REC-xml-names/#NT-QName"/>
+      <dcmi:isVersionOf xmlns:dcmi="http://purl.org/dc/terms/"
+                        rdf:resource="http://www.qualiware.com/guid-f6fa3b8a-7430-4817-b14d-f279816fb84a"/>
+      <dcmi:valid xmlns:dcmi="http://purl.org/dc/terms/">Valid from: --T::.00Z</dcmi:valid>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService.wsdl">
+            <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+            <MR:imports rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommune.wsdl"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.qualiware.com/guid-f6fa3b8a-7430-4817-b14d-f279816fb84a">
+      <MR:generates rdf:resource="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneServiceOIOIDWS.wsdl"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneServiceOIOIDWS.wsdl">
+            <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+            <MR:imports rdf:resource="http://serviceplatformen.dk/xml/wsdl/soap11/Security/PolicyOIOIDWS.wsdl"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneServiceOIOIDWS.wsdl">
+            <rdf:type rdf:resource="http://schemas.xmlsoap.org/wsdl/"/>
+            <MR:imports rdf:resource="http://www.kombit.dk/2022/01/01/http://www.kombit.dk/2022/01/01/YdelseListeHentUDKKommuneService.wsdl"/>
+         </rdf:Description>
+   <rdf:Description rdf:about="kontekst:KontekstType.xsd">
+      <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+      <MR:includes rdf:resource="kontekst:HovedOplysningerType.xsd"/>
+      <MR:includes rdf:resource="kontekst:HovedOplysningerSvarType.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="kontekst:HovedOplysningerType.xsd">
+      <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+      <MR:includes rdf:resource="kontekst:TransaktionsId.xsd"/>
+      <MR:includes rdf:resource="kontekst:TransaktionsTid.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="kontekst:HovedOplysningerSvarType.xsd">
+      <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+      <MR:includes rdf:resource="kontekst:TransaktionsId.xsd"/>
+      <MR:includes rdf:resource="kontekst:TransaktionsTid.xsd"/>
+      <MR:includes rdf:resource="kontekst:KildeId.xsd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="kontekst:TransaktionsId.xsd">
+      <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="kontekst:TransaktionsTid.xsd">
+      <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="kontekst:KildeId.xsd">
+      <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema-instance"/>
+   </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+            
+            <xs:simpleType name="CPRNummerType">
+               <xs:annotation>
+                  <xs:documentation>  Et CPR-nummer eller personnummer (eng. civil registration number) er et ticifret, personligt identifikationsnummer som gives til statsborgere og folk med opholdstilladelse i Danmark, samt folk der er bosat udenfor Danmark, men er medlem af ATP eller er skattepligtige efter skattekontrolloven. Personnummeret blev indført ved folkeregisterloven i 1968 og på Grønland i 1972. CPR er en forkortelse for Det Centrale Personregister.  
+      </xs:documentation>
+               </xs:annotation>
+               <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+         </xs:schema>

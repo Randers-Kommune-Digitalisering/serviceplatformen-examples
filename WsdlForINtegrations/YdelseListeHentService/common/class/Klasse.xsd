@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         <xs:annotation>
+               <xs:documentation>  
+               En Klasse er en mængde, hvori de indeholdte objekter har en eller flere egenskaber til fælles. Klassen er den specifikke reference, nøgle, til denne mængde. Et klassifikationssystem udgøres af Klasser. Et objekt kan beskrives gennem flere Klasser i klassifikationssystemet, hver af disse Klasser skal være ordnet i forskellige Facetter under klassifikationssystemet.  
+            </xs:documentation>
+            </xs:annotation>
+         <xs:include schemaLocation="../types/UUIDType.xsd"/>
+         <xs:include schemaLocation="../types/Tekst50Type.xsd"/>
+         <xs:include schemaLocation="../types/Tekst300Type.xsd"/>
+         <xs:include schemaLocation="../types/Tekst10KType.xsd"/>
+         <xs:include schemaLocation="../types/Tekst100Type.xsd"/>
+         <xs:include schemaLocation="../types/DatoType.xsd"/>
+         <xs:include schemaLocation="../types/DatoTidType.xsd"/>
+         <xs:include schemaLocation="../types/URNType.xsd"/>
+         <xs:include schemaLocation="../types/Tekst4096Type.xsd"/>
+         <xs:include schemaLocation="../types/TalHel1Til100Type.xsd"/>
+         <xs:element name="KlasseIdentifikation" type="kombit2022int:UUIDType">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Unik identifikation af 
+        Klasse
+        n (UUID).
+          
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseBrugervendtNoegle" type="kombit2022int:Tekst50Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Brugervendt identifikation af 
+        Klasse
+        n 
+        BrugervendtNøgle
+         er unik sammen med ejer og gyldighedsperiode.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseTitel" type="kombit2022int:Tekst300Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Klasse
+        ns 
+        Titel
+         - navn  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseBeskrivelse" type="kombit2022int:Tekst10KType">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Beskrivelse af indhold og formål med 
+        Klasse
+        n (kan redigeres).  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseEjer" type="kombit2022int:Tekst100Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Den juridiske enhed (oftest, men ikke begrænset til myndighed), som er 
+        Ejer
+         af 
+        Klasse
+        n (Kan ikke redigeres).  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseVirkningFra" type="kombit2022int:DatoType">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Klasse
+        n er gyldig fra og med denne dato. Datoen kan redigeres til en dato tidligere end angivne 
+        GyldigFra
+         under forudsætning af, at kravene til unik 
+        BrugervendtNøgle
+         kan overholdes.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseVirkningTil" type="kombit2022int:DatoType">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Klasse
+        n har gyldighed til og med Virknin
+        gTil
+         minus 1 dag, dvs. dagen før. Gyldighedsperioden er derved eksklusive Virkning
+        Til
+        . Virkning
+        Til
+         er altid senere end Virkning
+        Fra
+        . Hvis værdien ikke er angivet er gyldighedsperioden uafsluttet. Værdien kan redigeres/udfyldes. Værdien kan angives til dagsdato +2 dag eller senere.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseRegistreringTidspunkt" type="kombit2022int:DatoTidType">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Tidspunkt for 
+        Klasse
+        ns oprettelse (kan ikke redigeres).  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseSidstAEndretTidspunkt" type="kombit2022int:DatoTidType">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Seneste tidspunkt for oprettelse/ajourføring af 
+        Klasse
+        ns redigerbare attributter.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseUrnReference" type="kombit2022int:URNType">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        En Referencenøgle baseret på URN-syntaksen. Den konkrete syntaks er bestemt af ejeren af 
+        Klassifikationssystem
+        et.Referencenøglen kan benyttes som alternativ registreringsværdi i udvalgte situationer. Har samme livscyklus som 
+        KlasseBrugervendtNøgle
+           
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseRetskilde" type="kombit2022int:Tekst4096Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Hjemmelgrundlag, incl. evt. henvisning til lov og paragraf.   
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseAEndringsnotat" type="kombit2022int:Tekst4096Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Når en redaktør ændrer klassens indhold, kan han her skrive hvad og hvorfor, der er ændret  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="KlasseSortering" type="kombit2022int:TalHel1Til100Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Angiver klassens anbefalede sorteringsrækkefølge, når den vises for brugere. Anvendes typisk hvis nogle klasser ønskes fremhævet i lister med mange klasser.  Kan udfyldes med et positivt tal. Hvis der ikke er taget stilling til klassens sortering, bør den vises efter klasse med udfyldt sortering. Klasse med sortering sorteres i stigende rækkefølge, så 1 eksempelvis vises før 10.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+      </xs:schema>

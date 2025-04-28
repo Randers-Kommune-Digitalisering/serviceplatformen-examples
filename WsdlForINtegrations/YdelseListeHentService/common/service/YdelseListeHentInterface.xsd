@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         <xs:annotation>
+            <xs:documentation>  Servicen giver mulighed for at fremsøge oplysninger om bevilgede ydelser og effektueringer for en bevillingsmodtager (primær part på sagen) og/eller effektueringsmodtager. Søgningen kan kun ske inden for egen sektor, dvs. det kan være UDK, der søger ydelser inden for egen myndighed, eller en kommune, der søger ydelser inden for én eller flere kommuner.  
+      </xs:documentation>
+         </xs:annotation>
+         <xs:include schemaLocation="../view/BevillingHent_OType.xsd"/>
+         
+         <xs:include schemaLocation="../view/BevillingHent_IType.xsd"/>
+         
+         <xs:include schemaLocation="../view/EffektueringHent_OType.xsd"/>
+         
+         <xs:include schemaLocation="../view/EffektueringHent_IType.xsd"/>
+         
+         <xs:element name="YdelseListeHentInterface"
+               type="kombit2022int:YdelseListeHentInterfaceType"/>
+         <xs:complexType name="YdelseListeHentInterfaceType">
+            <xs:choice>
+               <xs:element ref="kombit2022int:BevillingHent_O"/>
+               <xs:element ref="kombit2022int:BevillingHent_I"/>
+               <xs:element ref="kombit2022int:EffektueringHent_O"/>
+               <xs:element ref="kombit2022int:EffektueringHent_I"/>
+            </xs:choice>
+         </xs:complexType>
+      </xs:schema>

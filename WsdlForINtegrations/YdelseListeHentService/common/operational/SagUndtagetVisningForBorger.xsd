@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+         <xs:include schemaLocation="../types/MarkeringType.xsd"/>
+         
+         <xs:element name="SagUndtagetVisningForBorger" type="kombit2022int:MarkeringType">
+            <xs:annotation>
+               <xs:documentation>  
+        Angiver om sagen er undtaget visning for borgeren. Værdien true, betyder at sagen ikke må vises for borger. 
+          
+      </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:schema>

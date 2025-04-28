@@ -1,0 +1,18 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "8.0.0-preview1.24619.5",
+  "options": {
+    "inputs": [
+      "../../../WsdlForINtegrations/SKATForwardEIndkomstService/SKATForwardEIndkomstServiceServiceToken.wsdl"
+    ],
+    "namespaceMappings": [
+      "*, ConnectedServices_SKATForwardEIndkomstService"
+    ],
+    "outputFile": "SKATForwardEIndkomstService.cs",
+    "references": [
+      "C:\\Users\\DQB1334\\repos\\serviceplatformen-examples\\ServiceplatformenExamples\\ServiceplatformenExamples.csproj"
+    ],
+    "targetFramework": "net9.0",
+    "typeReuseMode": "Specified"
+  }
+}

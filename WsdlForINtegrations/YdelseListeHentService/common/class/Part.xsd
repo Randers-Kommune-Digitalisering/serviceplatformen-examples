@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         <xs:annotation>
+               <xs:documentation/>
+            </xs:annotation>
+         <xs:include schemaLocation="../types/PartTypeType.xsd"/>
+         <xs:include schemaLocation="../types/URNType.xsd"/>
+         <xs:include schemaLocation="../types/Tekst255Type.xsd"/>
+         <xs:include schemaLocation="../types/CPRNummerType.xsd"/>
+         <xs:include schemaLocation="../types/CVRNumberType.xsd"/>
+         <xs:include schemaLocation="../types/PNummerType.xsd"/>
+         <xs:include schemaLocation="../types/SandFalskType.xsd"/>
+         <xs:element name="PartType" type="kombit2022int:PartTypeType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Angiver type af part der udbetales til: Person eller Virksomhed  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="PartURN" type="kombit2022int:URNType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Identifikation af Part. f.eks. "urn:oio:cpr-nr:0123456789"   
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="PartFuldtNavn" type="kombit2022int:Tekst255Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Partens fulde navn. Hvis parten er registreret i CPR eller CVR, hentes navn der.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="PartCPRNummer" type="kombit2022int:CPRNummerType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Partens CPRNummer  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="PartCVRNummer" type="kombit2022int:CVRNumberType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Partens CVRNummer, hvis parten er en virksomhed  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="PartPNummer" type="kombit2022int:PNummerType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Partens Produktionsenhedsnummer, hvis Parten er en virksomhed med produktionsenheder  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="PartUdenIdent" type="kombit2022int:SandFalskType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Angiver om parten er uden dansk ident, dvs. hverken har CPR- eller CVR-nummer.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+      </xs:schema>

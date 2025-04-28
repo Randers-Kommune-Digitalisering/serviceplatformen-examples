@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         
+         
+         <xs:annotation>
+            <xs:documentation>  En samlet udbetaling af en eller flere økonomiske ydelser.   
+      </xs:documentation>
+            <xs:documentation>r4697</xs:documentation>
+         </xs:annotation>
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringUUID.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringDispositionsdato.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringSamletBruttobeloeb.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringBeloebEfterSkatATP.xsd"/>
+         
+         <xs:include schemaLocation="../class/OEkonomiskEffektuering.xsd"/>
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringSendtTilUdbetalingTekst.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringUdbetalingStatus.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringUdbetaltTekst.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringStartDato.xsd"/>
+         
+         <xs:include schemaLocation="../operational/OekonomiskEffektueringSlutDato.xsd"/>
+         
+         <xs:include schemaLocation="../class/ItSystemInstans.xsd"/>
+         <xs:include schemaLocation="../class/Part.xsd"/>
+         <xs:element name="OekonomiskEffektueringStruktur"
+               type="kombit2022int:OekonomiskEffektueringStrukturType"/>
+         <xs:complexType name="OekonomiskEffektueringStrukturType">
+            <xs:sequence>
+               <xs:element ref="kombit2022int:OekonomiskEffektueringUUID"/>
+               <xs:element ref="kombit2022int:OekonomiskEffektueringDispositionsdato"/>
+               <xs:element ref="kombit2022int:OekonomiskEffektueringSamletBruttobeloeb"/>
+               
+                  <xs:element ref="kombit2022int:OekonomiskEffektueringBeloebEfterSkatATP" minOccurs="0"/>
+               
+               <xs:element ref="kombit2022int:OekonomiskEffektueringBeloebSendtTilUdbetaling"/>
+               
+                  <xs:element ref="kombit2022int:OEkonomiskEffektueringBeloebUdbetalt" minOccurs="0"/>
+               
+               
+                  <xs:element ref="kombit2022int:OekonomiskEffektueringSendtTilUdbetalingTekst" minOccurs="0"/>
+               
+               
+                  <xs:element ref="kombit2022int:OekonomiskEffektueringUdbetalingStatus" minOccurs="0"/>
+               
+               
+                  <xs:element ref="kombit2022int:OekonomiskEffektueringUdbetaltTekst" minOccurs="0"/>
+               
+               <xs:element ref="kombit2022int:OekonomiskEffektueringStartDato"/>
+               
+                  <xs:element ref="kombit2022int:OekonomiskEffektueringSlutDato" minOccurs="0"/>
+               
+               <xs:element name="OEkonomiskEffektueringMasterSystemInstans">
+                  <xs:complexType>
+                     <xs:sequence>
+                        <xs:element ref="kombit2022int:ItSystemInstansIdentifikation"/>
+                        <xs:element ref="kombit2022int:ItSystemInstansTitel"/>
+                     </xs:sequence>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="OEkonomiskEffektueringModtager">
+                  <xs:complexType>
+                     <xs:sequence>
+                        <xs:element ref="kombit2022int:PartType"/>
+                        <xs:element ref="kombit2022int:PartURN"/>
+                        
+                           <xs:element ref="kombit2022int:PartFuldtNavn" minOccurs="0"/>
+                        
+                        
+                           <xs:element ref="kombit2022int:PartCPRNummer" minOccurs="0"/>
+                        
+                        
+                           <xs:element ref="kombit2022int:PartCVRNummer" minOccurs="0"/>
+                        
+                        
+                           <xs:element ref="kombit2022int:PartPNummer" minOccurs="0"/>
+                        
+                     </xs:sequence>
+                  </xs:complexType>
+               </xs:element>
+            </xs:sequence>
+         </xs:complexType>
+      </xs:schema>

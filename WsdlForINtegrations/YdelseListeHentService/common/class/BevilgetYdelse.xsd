@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         <xs:annotation>
+               <xs:documentation>  En bevilget ydelse er et udtryk for 1 ydelse der er bevilget til en person/virksomhed. Der kan være en eller flere bevilgede ydelser til 1 bevilling. Hver bevilget ydelse beregnes for sig efter de regler, der gælder for den. Udbetalingen vil ofte følge bevillingen, hvor de bevilgede ydelser vil fremgå som linier på udbetalingsmeddelelsen.   
+      </xs:documentation>
+            </xs:annotation>
+         <xs:include schemaLocation="../types/DatoType.xsd"/>
+         <xs:include schemaLocation="../types/Tekst4096Type.xsd"/>
+         <xs:include schemaLocation="../types/MarkeringType.xsd"/>
+         <xs:include schemaLocation="../types/Tekst1000Type.xsd"/>
+         <xs:include schemaLocation="../types/Tekst255Type.xsd"/>
+         <xs:include schemaLocation="../types/Tekst36Type.xsd"/>
+         <xs:element name="BevilgetYdelseStartDato" type="kombit2022int:DatoType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Datoen for start på den bevilgede ydelse.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevilgetYdelseSlutDato" type="kombit2022int:DatoType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Datoen for slut på den bevilgede ydelse.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevilgetYdelseBegrundelse" type="kombit2022int:Tekst4096Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Begrundelse for hvorfor ydelsen er blevet bevilget.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevilgetYdelseTilbagebetalingspligtig" type="kombit2022int:MarkeringType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Angiver hvorvidt ydelsen er tilbagebetalingspligtig for den, som modtager ydelsen.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevilgetYdelseDispositionsdato" type="kombit2022int:DatoType">
+               
+               <xs:annotation>
+                  <xs:documentation>  SKAL SLETTES. Dispositionsdato registreres på ØkonomiskEffektuering.  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevilgetYdelseEffektueringsPlanBeskrivelse"
+               type="kombit2022int:Tekst1000Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  
+        Attributten er endnu ikke taget i anvendelse. Yderlige beskrivelse af effektueringen af ydelsen. F.eks. "pause i maj pga. ferie."
+         
+          
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevilgetYdelseNavn" type="kombit2022int:Tekst255Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  Evt. uddybning af den bevilgede ydelse. F.eks. en yderligere detaljering i forhold til ydelsens navn i Fælleskommunalt Klassifikationssystem (YdelseNavn).  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevilgetYdelseID" type="kombit2022int:Tekst36Type">
+               
+               <xs:annotation>
+                  <xs:documentation>  En unik identifikation af den enkelte bevilgede ydelse inden for bevillingen.   
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="BevilgetYdelseUndtagetVisningForBorger"
+               type="kombit2022int:MarkeringType">
+               
+               <xs:annotation>
+                  <xs:documentation>  Angiver om den bevilgede ydelse ikke må vises for bogeren. Hvis feltet ikke er udfyldt må den bevilgede ydelse gerne vises.Bemærk at visse ydelser gerne må vises selvom sagen ikke må vises  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+      </xs:schema>

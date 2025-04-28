@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+         <xs:annotation>
+               <xs:documentation>  En virksomhed er en juridisk enhed jf. CVR-loven. Organisation, der udøver økonomisk aktivitet (f.eks. producerer og sælger varer) eller gennemfører investeringer, ofte med det formål at akkumulere overskud. Virksomheder, foreninger, fonde og offentlige myndigheder mv. (juridiske enheder) tildeles CVR-numre. Et CVR-nummer er et otte-cifret nummer, der entydigt identificerer en juridisk enhed. CVR-numre er således for virksomheder, hvad et CPR-nummer er for personer. Nogle virksomhedsformer (frivillig forening og personligt ejet mindre virksomhed) kan man registrere, selvom man ikke har pligt til det, men fordi man har brug for et CVR-nummer til fx at: -identificere sig selv som virksomhed-få en NemKonto til erhverv-få en NemID medarbejdersignatur-få adgang til Digital post til virksomheder-indgå aftaler som en juridisk person frem for som en fysisk person  
+      </xs:documentation>
+            </xs:annotation>
+         <xs:include schemaLocation="../types/CVRNummerType.xsd"/>
+         <xs:include schemaLocation="../types/DatoType.xsd"/>
+         <xs:element name="VirksomhedCVRNummer" type="kombit2022int:CVRNummerType">
+               
+               <xs:annotation>
+                  <xs:documentation>   En virksomheds forretningsnøgle  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="VirksomhedStartdato" type="kombit2022int:DatoType">
+               
+               <xs:annotation>
+                  <xs:documentation>   Dato der angiver fra hvornår virksomheden har retsvirke  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         <xs:element name="VirksomhedOphoersdato" type="kombit2022int:DatoType">
+               
+               <xs:annotation>
+                  <xs:documentation>   Dato der angiver fra hvornår virksomheden ikke længere har retsvirkning  
+      </xs:documentation>
+               </xs:annotation>
+            </xs:element>
+      </xs:schema>

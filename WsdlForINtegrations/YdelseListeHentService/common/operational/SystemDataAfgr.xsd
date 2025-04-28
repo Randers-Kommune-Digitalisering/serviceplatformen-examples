@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+         <xs:include schemaLocation="../types/SystemDataAfgrType.xsd"/>
+         
+         <xs:element name="SystemDataAfgr" type="kombit2022int:SystemDataAfgrType">
+            <xs:annotation>
+               <xs:documentation>  Dataafgrænsning på den it-systeminstans der er master for sag, bevilling og ØkonomiskEffektuering. Der kan angives flere UUID'er adskilt med komma. Dataafgræsningen håndhæves på alle objekter i output, således at der kun returneres data oprettet af det/de angivne systemer.  
+      </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:schema>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:kombit2022int="http://www.kombit.dk/int/2022/01/01/"
+           xmlns:kontekst="http://kombit.dk/xml/schemas/kontekst/2017/01/01/"
+           xmlns:limxpath="http://kombit.dk/xml/schemas/limitedxpath/2017/01/01/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.kombit.dk/int/2022/01/01/"
+           elementFormDefault="qualified"
+           version="1.0">
+            
+            <xs:simpleType name="FoelsomhedType">
+               <xs:annotation>
+                  <xs:documentation>  
+        Sags- eller Bevillingsfølsomshedsniveau. Det angives her, om der er tale omfølsomme data eller ej efter en fast 4-trinsskala. med værdierne: IKKE_FORTROLIGE_DATAFORTROLIGE_PERSONOPLYSNINGERFOELSOMME_PERSONOPLYSNINGERVIP_SAGER
+        SagFoelsomhed er en enum der er en trappe, dvs. at en bruger, som har ret til at tilgå sager med følsomhed VIP_SAGER, kan tilgå sager med alle følsomhedsværdier, mens en bruger med FORTROLIGE_PERSONOPLYSNINGER, alene må se sager med følsomhederne IKKE_FORTROLIGE_DATA, FORTROLIGE_PERSONOPLYSNINGER 
+        Værdi til UUID mapning er som følger: IKKE_FORTROLIGE_DATA = 1d81c472-0808-44cc-963d-f5ef0170ae1dFORTROLIGE_PERSONOPLYSNINGER = 292e85a9-8ad4-46df-9e50-f97d6837ad74FOELSOMME_PERSONOPLYSNINGER = 31c09910-e011-46a5-86fb-254374421fe8VIP_SAGER = 44f4108b-26d4-46de-a90f-35e35b55b8d8  
+      </xs:documentation>
+               </xs:annotation>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="IKKE_FORTROLIGE_DATA"/>
+                  <xs:enumeration value="FORTROLIGE_PERSONOPLYSNINGER"/>
+                  <xs:enumeration value="FOELSOMME_PERSONOPLYSNINGER"/>
+                  <xs:enumeration value="VIP_SAGER"/>
+                  <xs:enumeration value=""/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:schema>
