@@ -33,8 +33,8 @@ public class Examples
         WriteClientCert();
 
         var cpr = "<cpr>";
-        var startMonth = "<start month>"; //formay YYYYMM, e.g. "202401"
-        var endMonth = "<end month>"; //format YYYYMM, e.g. "202412"
+        var startMonth = "202411"; //formay YYYYMM, e.g. "202401"
+        var endMonth = "202412"; //format YYYYMM, e.g. "202412"
 
         var data = await SF0770AIndkomstoplysningerLaes(cpr, startMonth, endMonth);
 
@@ -55,42 +55,96 @@ public class Examples
         Console.WriteLine(JsonSerializer.Serialize(data, options));
     }
 
-     public static class Config {
+    // [Fact]
+    // public async Task SF1475HentHentSagerFraDUBUExample()
+    // {
+    //     WriteClientCert();
+
+    //     // var cpr = "1902881723";
+
+    //     // var data = await SF1475HentSagerFraDUBU(cpr);
+
+    //     // JsonSerializerOptions options = new() { WriteIndented = true, IncludeFields = true };
+    //     // Console.WriteLine(JsonSerializer.Serialize(data, options));
+    // }
+
+    public static class Config {
         const string basePath = "../../../Certificates/";
-        public const string 
+        public const string
             // Kommunens CVR-nummer
             MunicipalityCvr = "29189668",
 
-            // Client certificate paths
-            ClientCertPublicKeyPath = basePath + "Client/<client public key name>.cer",
-            ClientCertPrivateKeyPath = basePath + "Client/<client private key name>.pem",
-            P12Path = basePath + "Client/clientCert.p12",
+            // Client certificate paths - production
+            PRODClientCertPublicKeyPath = basePath + "Client/clientPROD.cer",
+            PRODClientCertPrivateKeyPath = basePath + "Client/clientPROD.pem",
+            PRODP12Path = basePath + "Client/clientCertPROD.p12",
+
+            // Client certificate paths - test
+            TESTClientCertPublicKeyPath = basePath + "Client/clientTEST.cer",
+            TESTClientCertPrivateKeyPath = basePath + "Client/clientTEST.pem",
+            TESTP12Path = basePath + "Client/clientCertTEST.p12",
 
             // Service certificates paths
-            ServiceplatformenCertificateFilePath = basePath + "Services/SP_PROD_Signing_1.cer",
-            YdelsesindeksCertificateFilePath = basePath + "Services/YDI_PROD_Ydelsesindeks_1.cer",
-            
+            PRODServiceplatformenCertificateFilePath = basePath + "Services/SP_PROD_Signing_1.cer",
+            TESTServiceplatformenCertificateFilePath = basePath + "Services/SP_EXTTEST_Signing_1.cer",
+            PRODYdelsesindeksCertificateFilePath = basePath + "Services/YDI_PROD_Ydelsesindeks_1.cer",
+            TESTYdelsesindeksCertificateFilePath = basePath + "Services/YDI_EXTTEST_Ydelsesindeks_1.cer",
+
             // STS certificates path
-            StsCertificateFilePath = basePath + "STS/ADG_PROD_Adgangsstyring_1.cer",
+            PRODStsCertificateFilePath = basePath + "STS/ADG_PROD_Adgangsstyring_2.cer",
+            TESTStsCertificateFilePath = basePath + "STS/ADG_EXTTEST_Adgangsstyring_1.cer",
 
             // Sts endpoints
-            StsEndpoint = "https://adgangsstyring.stoettesystemerne.dk/runtime/services/kombittrust/14/certificatemixed",
-            StsEndpointId = "http://saml.n2adgangsstyring.stoettesystemerne.dk/runtime";
+            PRODStsEndpoint = "https://n2adgangsstyring.stoettesystemerne.dk/runtime/services/kombittrust/14/certificatemixed",
+            PRODStsEndpointId = "http://saml.n2adgangsstyring.stoettesystemerne.dk/runtime",
+            TESTStsEndpoint = "https://n2adgangsstyring.eksterntest-stoettesystemerne.dk/runtime/services/kombittrust/14/certificatemixed",
+            TESTStsEndpointId = "http://saml.n2adgangsstyring.eksterntest-stoettesystemerne.dk/runtime";
     }
 
     static void WriteClientCert()
     {
-        if (File.Exists(Config.P12Path))
+        // Handle PROD certificate
+        if (!File.Exists(Config.PRODP12Path))
         {
-            return;
-        } else {
-            var clientCertificate = X509Certificate2.CreateFromPemFile(Config.ClientCertPublicKeyPath, Config.ClientCertPrivateKeyPath);
-            byte[] pfxBytes = clientCertificate.Export(X509ContentType.Pfx);
-            File.WriteAllBytes(Config.P12Path, pfxBytes);            
+            var prodCert = X509Certificate2.CreateFromPemFile(Config.PRODClientCertPublicKeyPath, Config.PRODClientCertPrivateKeyPath);
+            byte[] prodPfxBytes = prodCert.Export(X509ContentType.Pfx);
+            File.WriteAllBytes(Config.PRODP12Path, prodPfxBytes);
+        }
+
+        // Handle TEST certificate
+        if (!File.Exists(Config.TESTP12Path))
+        {
+            var testCert = X509Certificate2.CreateFromPemFile(Config.TESTClientCertPublicKeyPath, Config.TESTClientCertPrivateKeyPath);
+            byte[] testPfxBytes = testCert.Export(X509ContentType.Pfx);
+            File.WriteAllBytes(Config.TESTP12Path, testPfxBytes);
         }
     }
 
     static StsTokenServiceConfiguration CreateStsConfig(string serviceCertificatePath,
+                                    string serviceEndpoint,
+                                    string serviceEndpointId,
+                                    bool includeLibertyHeader = true,
+                                    string wspSoapVersion = "1.1",
+                                    bool isTest = false) =>
+        CreateConfiguration(new OioIdwsWcfConfigurationSection()
+        {
+            StsCertificate = new Certificate { FilePath = isTest ? Config.TESTStsCertificateFilePath : Config.PRODStsCertificateFilePath, FromFileSystem = true },
+            StsEndpointAddress = isTest ? Config.TESTStsEndpoint : Config.PRODStsEndpoint,
+            StsEntityIdentifier = isTest ? Config.TESTStsEndpointId : Config.PRODStsEndpointId,
+            ServiceCertificate = new Certificate { FilePath = serviceCertificatePath, FromFileSystem = true, },
+            WspEndpoint = serviceEndpoint,
+            WspEndpointID = serviceEndpointId,
+            ClientCertificate = new Certificate { FilePath = isTest ? Config.TESTP12Path : Config.PRODP12Path, FromFileSystem = true },
+            Cvr = Config.MunicipalityCvr,
+            TokenLifeTimeInMinutes = 60,
+            IncludeLibertyHeader = includeLibertyHeader,
+            MaxReceivedMessageSize = 256000,
+            DebugMode = false,
+            WspSoapVersion = wspSoapVersion
+        });
+
+    
+    static StsTokenServiceConfiguration TESTCreateStsConfig(string serviceCertificatePath,
                                     string serviceEndpoint,
                                     string serviceEndpointId,
                                     // string stsCertificateFilePath = Config.StsCertificateFilePath2,
@@ -98,13 +152,13 @@ public class Examples
                                     string wspSoapVersion = "1.1") =>
         CreateConfiguration(new OioIdwsWcfConfigurationSection()
         {
-            StsCertificate = new Certificate { FilePath = Config.StsCertificateFilePath, FromFileSystem = true },
-            StsEndpointAddress = Config.StsEndpoint,
-            StsEntityIdentifier = Config.StsEndpointId,
+            StsCertificate = new Certificate { FilePath = Config.TESTStsCertificateFilePath, FromFileSystem = true },
+            StsEndpointAddress = Config.TESTStsEndpoint,
+            StsEntityIdentifier = Config.TESTStsEndpointId,
             ServiceCertificate = new Certificate { FilePath = serviceCertificatePath, FromFileSystem = true, },
             WspEndpoint = serviceEndpoint, 
             WspEndpointID = serviceEndpointId,
-            ClientCertificate = new Certificate { FilePath = Config.P12Path, FromFileSystem = true },
+            ClientCertificate = new Certificate { FilePath = Config.TESTP12Path, FromFileSystem = true },
             Cvr = Config.MunicipalityCvr,
             TokenLifeTimeInMinutes = 60,
             IncludeLibertyHeader = includeLibertyHeader,
@@ -114,13 +168,24 @@ public class Examples
             WspSoapVersion = wspSoapVersion //"1.2", //Delete if you want to use 1.1
         });
 
-    static async Task<PersonLookupResponseType> SF1520PersonLookup(string cpr)
+    static async Task<PersonLookupResponseType> SF1520PersonLookup(string cpr, bool isTest = false)
     {
-        var serviceCertificatePath = Config.ServiceplatformenCertificateFilePath;
-        var serviceEndpoint = "https://prod.serviceplatformen.dk/service/CPR/PersonBaseDataExtended/5";
-        var serviceEndpointId = "http://cpr.serviceplatformen.dk/service/personbasedataextended/5";
+        string serviceCertificatePath, serviceEndpoint, serviceEndpointId;
 
-        var config = CreateStsConfig(serviceCertificatePath, serviceEndpoint, serviceEndpointId);
+        if (isTest)
+        {
+            serviceCertificatePath = Config.TESTServiceplatformenCertificateFilePath;
+            serviceEndpoint = "https://exttest.serviceplatformen.dk/service/CPR/PersonBaseDataExtended/5";
+            serviceEndpointId = "http://cpr.serviceplatformen.dk/service/personbasedataextended/5";
+        }
+        else
+        {
+            serviceCertificatePath = Config.PRODServiceplatformenCertificateFilePath;
+            serviceEndpoint = "https://prod.serviceplatformen.dk/service/CPR/PersonBaseDataExtended/5";
+            serviceEndpointId = "http://cpr.serviceplatformen.dk/service/personbasedataextended/5";
+        }
+
+        var config = CreateStsConfig(serviceCertificatePath, serviceEndpoint, serviceEndpointId, isTest: isTest);
 
         GenericXmlSecurityToken token;
         token = (GenericXmlSecurityToken)new StsTokenService(config).GetToken();
@@ -131,13 +196,24 @@ public class Examples
         return response.PersonLookupResponse1;
     }
 
-    static async Task<IndkomstOplysningPersonHent1> SF0770AIndkomstoplysningerLaes(string cpr, string startMonth, string endMonth)
+    static async Task<IndkomstOplysningPersonHent1> SF0770AIndkomstoplysningerLaes(string cpr, string startMonth, string endMonth, bool isTest = false)
     {
-        var serviceCertificatePath = Config.ServiceplatformenCertificateFilePath;
-        var serviceEndpoint = "https://prod.serviceplatformen.dk/service/SKAT/EIndkomst/4";
-        var serviceEndpointId = "http://entityid.kombit.dk/service/sp/skatforwardeindkomstservice/4";
+        string serviceCertificatePath, serviceEndpoint, serviceEndpointId;
 
-        var config = CreateStsConfig(serviceCertificatePath, serviceEndpoint, serviceEndpointId);
+        if (isTest)
+        {
+            serviceCertificatePath = Config.TESTServiceplatformenCertificateFilePath;
+            serviceEndpoint = "https://exttest.serviceplatformen.dk/service/SKAT/EIndkomst/4";
+            serviceEndpointId = "http://entityid.kombit.dk/service/sp/skatforwardeindkomstservice/4";
+        }
+        else
+        {
+            serviceCertificatePath = Config.PRODServiceplatformenCertificateFilePath;
+            serviceEndpoint = "https://prod.serviceplatformen.dk/service/SKAT/EIndkomst/4";
+            serviceEndpointId = "http://entityid.kombit.dk/service/sp/skatforwardeindkomstservice/4";
+        }
+
+        var config = CreateStsConfig(serviceCertificatePath, serviceEndpoint, serviceEndpointId, isTest: isTest);
 
         GenericXmlSecurityToken token;
         token = (GenericXmlSecurityToken)new StsTokenService(config).GetToken();
@@ -175,13 +251,24 @@ public class Examples
         return response;
     }
 
-    static async Task<EffektueringHentRequest1> SF1491EffektueringHent(string cpr)
+    static async Task<EffektueringHentRequest1> SF1491EffektueringHent(string cpr, bool isTest = false)
     {
-        var serviceCertificatePath = Config.YdelsesindeksCertificateFilePath;
-        var serviceEndpoint = "https://ydelsesindeks.stoettesystemerne.dk/ydelselistehent/2";
-        var serviceEndpointId = "http://entityid.kombit.dk/service/ydelselistehent/1";
+        string serviceCertificatePath, serviceEndpoint, serviceEndpointId;
 
-        var config = CreateStsConfig(serviceCertificatePath, serviceEndpoint, serviceEndpointId, false, "1.2");
+        if (isTest)
+        {
+            serviceCertificatePath = Config.TESTYdelsesindeksCertificateFilePath;
+            serviceEndpoint = "https://ydelsesindeks-exttest.stoettesystemerne.dk/ydelselistehent/2";
+            serviceEndpointId = "http://entityid.kombit.dk/service/ydelselistehent/1";
+        }
+        else
+        {
+            serviceCertificatePath = Config.PRODYdelsesindeksCertificateFilePath;
+            serviceEndpoint = "https://ydelsesindeks.stoettesystemerne.dk/ydelselistehent/2";
+            serviceEndpointId = "http://entityid.kombit.dk/service/ydelselistehent/1";
+        }
+
+        var config = CreateStsConfig(serviceCertificatePath, serviceEndpoint, serviceEndpointId, includeLibertyHeader: false, wspSoapVersion: "1.2", isTest: isTest);
 
         GenericXmlSecurityToken token;
         token = (GenericXmlSecurityToken)new StsTokenService(config).GetToken();
